@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <title>Joe Calleya</title>
+</head>
+<header>
+</header>
+<body>
+    <section class="landing">
+        <section class="grid-background">
+            <div class="tile J">J</div>
+            <div class="tile O1">O</div>
+            <div class="tile E">E</div>
+            <div class="dropdown tile link C"><a href="#contact">C</a>
+                    <div class="dropdown hidden tile">O</div>
+                    <div class="dropdown hidden tile">N</div>
+                    <div class="dropdown hidden tile">T</div>
+                    <div class="dropdown hidden tile">A</div>
+                    <div class="dropdown hidden tile">C</div>
+                    <div class="dropdown hidden tile">T</div>
+            </div>
+            <div class="dropdown tile link A1"><a href="#about">A</a>
+                <div class="dropdown hidden tile">B</div>
+                <div class="dropdown hidden tile">O</div>
+                <div class="dropdown hidden tile">U</div>
+                <div class="dropdown hidden tile">T</div>
+            </div>
+            <div class="tile L1">L</div>
+            <div class="tile L2">L</div>
+            <div class="tile Y">Y</div>
+            <div class="tile A2">A</div>
+            <div class="tile W">W</div>
+            <div class="tile B">B</div>
+            <div class="tile D">D</div>
+            <div class="tile E2">E</div>
+            <div class="tile V">V</div>
+            <div class="tile E3">E</div>
+            <div class="tile L3">L</div>
+            <div class="tile O2">O</div>
+            <div class="tile E4">E</div>
+            <div class="tile R">R</div>
+            <div class="dropdown tile P link"><a href="#projects">P</a>
+                <div class="dropdown hidden tile">R</div>
+                <div class="dropdown hidden tile">O</div>
+                <div class="dropdown hidden tile">J</div>
+                <div class="dropdown hidden tile">E</div>
+                <div class="dropdown hidden tile">C</div>
+                <div class="dropdown hidden tile">T</div>
+                <div class="dropdown hidden tile">S</div>
+            </div>
+        </section>
+    </section>
+    <section class=projects id=projects>
+        <h1>
+            <div class="tile">P</div>
+            <div class="tile">R</div>
+            <div class="tile">O</div>
+            <div class="tile">J</div>
+            <div class="tile">E</div>
+            <div class="tile">C</div>
+            <div class="tile">T</div>
+            <div class="tile">S</div>
+        </h1>
+        <section class="projects__container">
+        <article>
+            <h2>Projects I have completed. </h2>
+            <div class="project__detail image-overlay">
+                <a href="../../projecs/FIRE-calculator/index.html">
+                <img class="project__detail__image" src="images/FIRE-Calculator.png" alt="FIRE Calc">
+                </a>
+                <h1>Financial Indepdendence, Retire Early Calculator</h1>
+                <p  class="project__text">Description of project when hover and link</p>
+            </div>
+        </article>
+        <article>
+            <h2>Projects I have completed. </h2>
+            <div class="project__detail image-overlay">
+                <a href="../../projecs/FIRE-calculator/index.html">
+                <img class="project__detail__image" src="images/FIRE-Calculator.png" alt="FIRE Calc">
+                </a>
+                <h1>Financial Indepdendence, Retire Early Calculator</h1>
+                <p  class="project__text">Description of project when hover and link</p>
+            </div>
+        </article>
+    </section>
+        <article>
+            <p> tools i have learned how to use.
+
+            </p>
+            
+            <img class="tech-stack" src="images/sas.png" alt="SAS">
+            <img class="tech-stack" src="images/python.jpg" alt="python">
+            <img class="tech-stack" src="images/Post.png" alt="Postgresql">
+            <img class="tech-stack" src="images/SQL.jpg" alt="SQL">
+            <img class="tech-stack" src="images/raspberry pi.jpg" alt="raspberrypi">
+        </article>
+
+    </section>  
+    <section class=about id=about>
+        <h1>
+            <div class="tile">A</div>
+            <div class="tile">B</div>
+            <div class="tile">O</div>
+            <div class="tile">U</div>
+            <div class="tile">T</div>
+        </h1>
+        <article>
+            <p> I started coding in 2011
+                while on a greauate trainng course.
+
+                there i learned how to use and build 
+                SAS and SQL databases.
+
+                I have since been learing python in my spare 
+                time for personal projects (plant watering & Stocks and Shares Analysis)
+                
+                I have spent the last 10 years 
+                working as a Database Developer 
+                for financial Institutions.
+                I have worked in Banks and 
+                insurers and now want to move 
+                into something more exciing
+            </p>
+        </article>
+    </section>  
+    <section id=contact class=contact>
+        <h1>
+            <div class="tile">C</div>
+            <div class="tile">O</div>
+            <div class="tile">N</div>
+            <div class="tile">T</div>
+            <div class="tile">A</div>
+            <div class="tile">C</div>
+            <div class="tile">T</div>
+        </h1>
+        <form class="contact-form">
+            <div class="input-fields">
+            <input type="text" class="input" placeholder="Name" required>
+            <input type="email" class="input" placeholder="Email Address" id="email" required>
+            <input type="text" class="input" placeholder="Phone">
+            <input type="text" class="input" placeholder="Subject">
+            </div>
+            <div class="content">
+            <textarea placeholder="Message" required></textarea>
+            <input type="submit" placeholder="SUBMIT" id="submitter" class="btn"/>
+            </div>
+        </form onsubmit=submitForm()>
+    </section>  
+
+</body>
+</html>
