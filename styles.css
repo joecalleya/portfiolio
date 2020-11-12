@@ -8,30 +8,19 @@ html {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-article {
-  position: relative;
-  bottom: 60%;
-  left: 30%;
-  width: 60%;
-  font-size: 150%;
-}
-
 a {
   text-decoration: none;
   color: #f09000;
 }
 
-h1 {
-  position: relative;
-  top: 15%;
-  left: 8%;
-  width: 20%;
-  height: 70%;
+.section__title {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 7%;
   z-index: -1;
-  max-width: 75px;
-  font-size: 80%;
+  font-size: 350%;
 }
 
 section.grid-background {
@@ -54,62 +43,88 @@ section.landing {
 }
 
 section.projects {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-color: #f09000;
   color: #09103b;
   opacity: 0.7;
 }
+section.projects button {
+  height: 60%;
+  width: 10%;
+  background-color: #09103b;
+  color: #f09000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
 section.projects .projects__container {
   display: flex;
   flex-direction: row;
-  width: 50%;
-  height: 50%;
-  overflow: auto;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 60%;
+  width: 60%;
+  overflow-x: scroll;
+  overflow: hidden;
   white-space: nowrap;
+  background-color: rgba(240, 240, 240, 0.1);
 }
-section.projects div.tile {
-  color: #09103b;
-  border-color: #09103b;
+section.projects .projects__container h1 {
+  width: 80%;
+  word-wrap: initial;
 }
-section.projects img.project__detail__image {
-  left: 50%;
+section.projects .projects__container p {
+  width: 80%;
+}
+section.projects .projects__container .project__detail {
+  padding: 4%;
+  width: 250px;
+  height: 400px;
+}
+section.projects .projects__container .project__detail img.project__detail__image {
   width: 100%;
   height: 100%;
+  opacity: 0.2;
 }
-section.projects div.project__detail {
-  border: 0.3rem solid #09103b;
-  width: 20%;
-  height: 50%;
-}
-section.projects div.project__detail img:hover {
-  opacity: 0;
+section.projects .projects__container .project__detail img.project__detail__image:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2);
 }
 
 section.about {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   width: 100%;
   height: 100%;
   background-color: #09103b;
   color: #f09000;
   opacity: 0.7;
 }
-section.about div.tile {
-  color: #f09000;
-  border-color: #f09000;
+section.about article {
+  bottom: 60%;
+  left: 30%;
+  width: 60%;
+  font-size: 150%;
 }
 
 section.contact {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   width: 100%;
   height: 100%;
   background-color: #f09000;
   color: #09103b;
   opacity: 0.7;
-}
-section.contact div.tile {
-  color: #09103b;
-  border-color: #09103b;
 }
 
 div.tile {
@@ -241,55 +256,4 @@ div.link:hover {
 .B {
   grid-column: 10;
   grid-row: 6;
-}
-
-.contact-form {
-  position: relative;
-  bottom: 40%;
-  left: 30%;
-  width: 50%;
-  padding: 30px;
-  border-radius: 5px;
-  display: flex;
-  box-shadow: 0 0 10px #09103b;
-}
-.contact-form .input-fields {
-  display: flex;
-  flex-direction: column;
-}
-.contact-form .input-fields, .contact-form .content {
-  width: 60%;
-}
-.contact-form .input-fields .input, .contact-form .input-fields textarea, .contact-form .content .input, .contact-form .content textarea {
-  margin: 10px 0;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid #09103b;
-  padding: 10px;
-  color: #09103b;
-  width: 100%;
-}
-.contact-form .input-fields textarea, .contact-form .content textarea {
-  height: 209px;
-}
-.contact-form .input-fields .btn, .contact-form .content .btn {
-  width: 100px;
-  height: 40px;
-  background-color: #09103b;
-  border: none;
-  border-radius: 2px;
-  background-color: #09103b;
-  color: white;
-  cursor: pointer;
-  float: right;
-  margin-top: 10px;
-}
-.contact-form .input-fields .btn:hover, .contact-form .content .btn:hover {
-  border: 2px solid #09103b;
-}
-
-img {
-  left: 50%;
-  height: 100px;
-  width: 150px;
 }
