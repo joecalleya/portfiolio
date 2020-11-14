@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -24,12 +24,14 @@ a {
 }
 
 section.grid-background {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(11, minmax(30px, 60px));
   grid-template-rows: repeat(10, minmax(30px, 60px));
-  grid-gap: 10px;
+  grid-gap: 0.5%;
   background-color: #09103b;
   justify-content: center;
   align-content: center;
@@ -108,11 +110,14 @@ section.about {
   color: #f09000;
   opacity: 0.7;
 }
-section.about article {
-  bottom: 60%;
-  left: 30%;
-  width: 60%;
-  font-size: 150%;
+section.about .about_hobbies_img_container {
+  width: 200px;
+  height: 300px;
+  opacity: 0.2;
+}
+section.about .about_hobbies_img {
+  width: 100%;
+  height: 100%;
 }
 
 section.contact {
