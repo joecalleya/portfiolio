@@ -18,9 +18,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 7%;
+  padding: 3%;
   z-index: -1;
-  font-size: 350%;
+  font-size: 290%;
 }
 
 section.grid-background {
@@ -56,47 +56,62 @@ section.projects {
   opacity: 0.7;
 }
 section.projects button {
-  height: 60%;
-  width: 10%;
+  height: 80%;
+  width: 3%;
   background-color: #09103b;
   color: #f09000;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 120%;
+  opacity: 0.7;
+  box-shadow: 6px 6px #666;
+}
+section.projects button:hover {
+  opacity: 1;
+}
+section.projects button:active {
+  box-shadow: 1px 1px #666;
+  transform: translateY(3px);
+  transform: translatex(3px);
 }
 section.projects .projects__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-items: space-between;
   flex-shrink: 0;
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 70%;
   overflow-x: scroll;
   overflow: hidden;
   white-space: nowrap;
   background-color: rgba(240, 240, 240, 0.1);
 }
-section.projects .projects__container h1 {
-  width: 80%;
-  word-wrap: initial;
-}
-section.projects .projects__container p {
-  width: 80%;
-}
 section.projects .projects__container .project__detail {
-  padding: 4%;
+  padding: 5%;
   width: 250px;
-  height: 400px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
   width: 100%;
-  height: 100%;
-  opacity: 0.2;
+  height: 70%;
+  opacity: 0.9;
+  box-shadow: 6px 6px #666;
 }
 section.projects .projects__container .project__detail img.project__detail__image:hover {
   opacity: 1;
-  transform: scale(1.2, 1.2);
+}
+section.projects .projects__container .project__detail img.project__detail__image:active {
+  opacity: 1;
+  box-shadow: 1px 1px #666;
+  transform: translateY(3px);
+  transform: translatex(3px);
+}
+section.projects .projects__container .project__detail h1 {
+  white-space: normal;
+  width: 250px;
+}
+section.projects .projects__container .project__detail .project__text {
+  white-space: normal;
+  width: 250px;
 }
 
 section.about {
@@ -110,12 +125,23 @@ section.about {
   color: #f09000;
   opacity: 0.7;
 }
-section.about .about_hobbies_img_container {
-  width: 200px;
-  height: 300px;
-  opacity: 0.2;
+section.about .about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-section.about .about_hobbies_img {
+section.about .about__container p {
+  width: 40%;
+  font-size: 120%;
+}
+section.about .about__container .about_hobbies_img_container {
+  width: 50%;
+  height: 60%;
+  opacity: 0.5;
+  padding: 4%;
+}
+section.about .about__container .about_hobbies_img {
   width: 100%;
   height: 100%;
 }
