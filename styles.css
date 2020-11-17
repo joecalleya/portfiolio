@@ -141,8 +141,9 @@ section.about a {
   color: #f09000;
 }
 section.about h1 {
-  border-bottom: 5px solid #f09000;
-  font-size: 250%;
+  border-bottom: 3px solid #f09000;
+  font-size: 150%;
+  margin: 3%;
 }
 section.about .about__container {
   display: flex;
@@ -155,11 +156,11 @@ section.about .about__container {
 section.about .about__container .about__container__bio {
   height: 50%;
   width: 90%;
-  border: 5px solid #f09000;
+  border: 3px solid #f09000;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
   font-size: 200%;
-  margin: 5%;
+  margin: 2.5%;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
@@ -171,11 +172,11 @@ section.about .about__container .about__container__hobbies {
   flex-direction: row;
   height: 50%;
   width: 90%;
-  border: 5px solid #f09000;
+  border: 3px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
   font-size: 200%;
-  margin: 5%;
+  margin: 2.5%;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__hobbies li {
@@ -208,8 +209,8 @@ section.contact a {
   color: #09103b;
 }
 section.contact h1 {
-  border-bottom: 5px solid #09103b;
-  font-size: 250%;
+  border-bottom: 3px solid #09103b;
+  font-size: 150%;
 }
 section.contact .contact__container {
   display: flex;
@@ -231,7 +232,7 @@ section.contact .contact__container .contact__container__fontawesome {
   justify-items: center;
   align-items: center;
   font-size: 250%;
-  border: 5px solid #09103b;
+  border: 3px solid #09103b;
 }
 section.contact .contact__container .contact__container__getintouch {
   height: 40%;
@@ -242,7 +243,7 @@ section.contact .contact__container .contact__container__getintouch {
   justify-content: space-evenly;
   align-items: center;
   font-size: 250%;
-  border: 5px solid #09103b;
+  border: 3px solid #09103b;
 }
 
 div.tile {

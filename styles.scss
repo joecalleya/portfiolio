@@ -4,6 +4,7 @@ $text-colour:rgb(240, 144, 0);
 $tile-text-size: 200%;
 $hidden-text-size: 100%;
 $heading-text-size: 250%;
+$sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
 $section__container_width: 70%;
 $normal-text-font-size: 200%;
@@ -173,8 +174,9 @@ section.about {
     }
 
     h1 {
-        border-bottom: 5px solid $text-colour;
-        font-size: $heading-text-size;
+         border-bottom: 3px solid $text-colour;
+        font-size: $sub-heading-text-size;
+        margin: 3%;
 
 
     }
@@ -190,12 +192,12 @@ section.about {
         .about__container__bio {
             height: 50%;
             width: 90%;
-            border: 5px solid $text-colour;
+            border: 3px solid $text-colour;
 
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
-                margin: 5%;;
+                margin: 2.5%;;
             }
             //media query for mobile 
             @media (max-width: 600px) {
@@ -210,12 +212,12 @@ section.about {
             flex-direction: row;
             height: 50%;
             width: 90%;
-            border: 5px solid $text-colour;
+            border: 3px solid $text-colour;
 
 
             li {
                 font-size: $normal-text-font-size;
-                margin: 5%;;
+                margin: 2.5%;
 
             }
             @media (max-width: 600px) {
@@ -256,8 +258,8 @@ section.contact {
 
 
     h1 {
-        border-bottom: 5px solid $background-colour;
-        font-size: $heading-text-size;
+        border-bottom: 3px solid $background-colour;
+        font-size: $sub-heading-text-size;
 
     }
 
@@ -283,7 +285,7 @@ section.contact {
             justify-items: center;
             align-items: center;
             font-size: $heading-text-size;
-            border: 5px solid $background-colour;
+            border: 3px solid $background-colour;
         }
 
         .contact__container__getintouch {
@@ -295,7 +297,7 @@ section.contact {
             justify-content: space-evenly;
             align-items: center;
             font-size: $heading-text-size;
-            border: 5px solid $background-colour;
+            border: 3px solid $background-colour;
         }
     }
 }
