@@ -6,7 +6,7 @@ $hidden-text-size: 100%;
 $heading-text-size: 200%;
 $background-2:rgba(240, 240, 240, 0.1);
 $section__container_width: 70%;
-$normal-text-font-size: 150%;
+$normal-text-font-size: 200%;
 
 html {
     scroll-behavior: smooth;
@@ -193,9 +193,15 @@ section.about {
             border: 5px solid $text-colour;
 
 
-            p {
+            .about__container__bio__text {
                 font-size: $normal-text-font-size;
                 margin: 5%;;
+            }
+            //media query for mobile 
+            @media (max-width: 600px) {
+                .about__container__bio__text {
+                    font-size:100%;
+            }
             }
         }
 
@@ -211,6 +217,11 @@ section.about {
                 font-size: $normal-text-font-size;
                 margin: 5%;;
 
+            }
+            @media (max-width: 600px) {
+                li {
+                    font-size:100%;
+            }
             }
         }
             .about_hobbies_img_container {
@@ -303,6 +314,8 @@ div.tile {
 
 
 }
+
+
 
 //THESE STYLEs ARE FOR THE LANDING PAGE
 
