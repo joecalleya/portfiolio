@@ -17,6 +17,14 @@ body {
   z-index: -1;
   font-size: 290%;
 }
+.section__title i {
+  box-shadow: 6px 6px #666;
+}
+.section__title i:active {
+  box-shadow: 1px 1px #666;
+  transform: translateY(3px);
+  transform: translatex(3px);
+}
 
 section.grid-background {
   margin: 0;
@@ -67,7 +75,7 @@ section.projects button {
   text-decoration: none;
   font-size: 120%;
   opacity: 0.7;
-  box-shadow: 6px 6px #666;
+  box-shadow: 4px 4px #666;
 }
 section.projects button:hover {
   opacity: 1;
@@ -137,6 +145,7 @@ section.about .about__container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 70%;
 }
 section.about .about__container p {
   width: 40%;
@@ -168,17 +177,24 @@ section.contact a {
   text-decoration: none;
   color: #09103b;
 }
+section.contact h1 {
+  border-bottom: 5px solid black;
+  font-size: 290%;
+}
 section.contact .contact__container {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  align-items: center;
+  justify-items: space-evenly;
   height: 100%;
   width: 70%;
-  border: 5px solid black;
 }
-section.contact .contact__container__fontawesome {
+section.contact .contact__container i {
+  margin: 5%;
+}
+section.contact .contact__container .contact__container__fontawesome {
   height: 50%;
-  width: 30%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -187,11 +203,12 @@ section.contact .contact__container__fontawesome {
   font-size: 290%;
   border: 5px solid black;
 }
-section.contact .contact__container__details {
-  height: 50%;
+section.contact .contact__container .contact__container__getintouch {
+  height: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  justify-items: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 290%;
   border: 5px solid black;
