@@ -225,18 +225,18 @@ section.contact .contact__container i {
 }
 section.contact .contact__container .contact__container__fontawesome {
   height: 50%;
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   font-size: 250%;
   border: 3px solid #09103b;
 }
 section.contact .contact__container .contact__container__getintouch {
   height: 40%;
-  width: 60%;
+  width: 90%;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
