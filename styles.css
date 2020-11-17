@@ -154,7 +154,7 @@ section.about .about__container {
 }
 section.about .about__container .about__container__bio {
   height: 50%;
-  width: 80%;
+  width: 90%;
   border: 5px solid #f09000;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
@@ -163,14 +163,14 @@ section.about .about__container .about__container__bio .about__container__bio__t
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 section.about .about__container .about__container__hobbies {
   display: flex;
   flex-direction: row;
   height: 50%;
-  width: 80%;
+  width: 90%;
   border: 5px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
@@ -179,11 +179,11 @@ section.about .about__container .about__container__hobbies li {
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__hobbies li {
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 section.about .about__container .about_hobbies_img_container {
-  width: 40%;
+  width: 50%;
   height: 100%;
   opacity: 0.5;
 }
