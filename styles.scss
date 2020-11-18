@@ -1,13 +1,12 @@
 $background-colour:#09103b;
 $text-colour:rgb(240, 144, 0);
-// $text-colour:;
 $tile-text-size: 200%;
 $hidden-text-size: 100%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
 $section__container_width: 65%;
-$normal-text-font-size: 200%;
+$normal-text-font-size: 170%;
 
 html {
     scroll-behavior: smooth;
@@ -29,7 +28,8 @@ body {
     font-size: $heading-text-size;
 
     i {
-        box-shadow: 6px 6px #666;
+        box-shadow: 5px 5px #666;
+        margin-bottom: 50%;
 
         &:active {
             box-shadow: 1px 1px #666;
@@ -82,29 +82,6 @@ section.projects {
     a {
         text-decoration: none;
         color: $background-colour;
-    }
-
-    button {
-        height: 5%;
-        width: 5%;
-        background-color: $background-colour;
-        color: $text-colour;
-        text-align: center;
-        text-decoration: none;
-        font-size: 120%;
-        opacity: 0.7;
-        box-shadow: 4px 4px #666;
-
-        // hover and click settings
-        &:hover {
-            opacity: 1;
-        }
-
-        &:active {
-            box-shadow: 1px 1px #666;
-            transform: translateY(3px);
-            transform: translatex(3px);
-        }
     }
 
     .projects__container {
@@ -231,13 +208,13 @@ section.about {
             }
         }
             .about_hobbies_img_container {
-                width: 50%;
+                width: 100%;
                 height: 100%;
                 opacity: 0.5;
             }
 
             .about_hobbies_img {
-                width: 100%;
+                width: auto;
                 height: 100%;
             }
         
