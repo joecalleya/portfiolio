@@ -9,10 +9,10 @@ const scrollButtons = () => {
     const scrollRightButton = document.querySelector('#scroll__right__button');
     const scrollLeftButton = document.querySelector('#scroll__left__button');
     
-    scrollRightButton.addEventListener('click', (event) => {
+    scrollRightButton.addEventListener('click', () => {
         scrollableContainer.scrollLeft += 220;
     })
-    scrollLeftButton.addEventListener('click', (event) => {
+    scrollLeftButton.addEventListener('click', () => {
         scrollableContainer.scrollLeft -= 220;
     })
 }

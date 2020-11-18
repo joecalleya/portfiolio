@@ -33,14 +33,14 @@ var projectItemsArray = [{
   webLink: "https://book-finder-app-b2cc3.firebaseapp.com/",
   image: "images/book-finder-app.png"
 }, {
-  name: "Random Recipie App",
+  name: "Random Recipe App",
   description: "This App links to the Meal DB API, has ability to Authenticate & Save drinks to the user account",
   techStack: "React - Firebase - Javascript - HTML - CSS",
-  gitHubLink: "https://github.com/joecalleya/recipie-finder-app<",
+  gitHubLink: "https://github.com/joecalleya/recipie-finder-app",
   webLink: "https://random-recipie.firebaseapp.com/",
   image: "/images/random-recipie.png"
 }, {
-  name: "( WORK IN PROGRESS) Outdoor Climbing Crag App ",
+  name: "( WORK IN PROGRESS) Outdoor Climbing App ",
   description: "This will be a NODE API back end & separate front end for showing, updating and deleting climbing locations",
   techStack: "NODE.js - HTML GET/POST etc - React - Firebase - Javascript - HTML - CSS",
   gitHubLink: "https://github.com/joecalleya/climbing-spot-node-api",

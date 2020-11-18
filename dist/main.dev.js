@@ -7,10 +7,10 @@ var scrollButtons = function scrollButtons() {
   var scrollableContainer = document.querySelector('#scrollable');
   var scrollRightButton = document.querySelector('#scroll__right__button');
   var scrollLeftButton = document.querySelector('#scroll__left__button');
-  scrollRightButton.addEventListener('click', function (event) {
+  scrollRightButton.addEventListener('click', function () {
     scrollableContainer.scrollLeft += 220;
   });
-  scrollLeftButton.addEventListener('click', function (event) {
+  scrollLeftButton.addEventListener('click', function () {
     scrollableContainer.scrollLeft -= 220;
   });
 };

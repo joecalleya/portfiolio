@@ -109,6 +109,7 @@ section.projects .projects__container .project__detail p {
   white-space: normal;
   width: 200px;
   font-size: 90%;
+  margin: 0.5%;
 }
 
 section.about {
