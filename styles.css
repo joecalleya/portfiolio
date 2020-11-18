@@ -49,7 +49,7 @@ section.landing {
 }
 section.landing a {
   text-decoration: none;
-  color: rgba(240, 144, 0, 0.4);
+  color: rgba(240, 144, 0, 0.6);
   opacity: 0.1;
 }
 
@@ -147,7 +147,7 @@ section.about .about__container .about__container__bio {
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
   font-size: 170%;
-  margin: 2.5%;
+  margin: 5%;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
@@ -156,28 +156,26 @@ section.about .about__container .about__container__bio .about__container__bio__t
 }
 section.about .about__container .about__container__hobbies {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   height: 50%;
   width: 90%;
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
   font-size: 170%;
-  margin: 2.5%;
+  margin: 5%;
+  list-style-type: none;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__hobbies li {
     font-size: 90%;
   }
 }
-section.about .about__container .about_hobbies_img_container {
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-}
-section.about .about__container .about_hobbies_img {
-  width: auto;
-  height: 100%;
+section.about .about__container i {
+  font-size: 500%;
+  margin: 1%;
 }
 
 section.contact {

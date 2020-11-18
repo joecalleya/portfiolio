@@ -5,7 +5,7 @@ $hidden-text-size: 100%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
-$background-3:rgba(240, 144, 0, 0.4);
+$background-3:rgba(240, 144, 0, 0.6);
 $section__container_width: 65%;
 $normal-text-font-size: 170%;
 
@@ -181,7 +181,7 @@ section.about {
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
-                margin: 2.5%;;
+                margin: 5%;
             }
             //media query for mobile 
             @media (max-width: 600px) {
@@ -193,15 +193,18 @@ section.about {
 
         .about__container__hobbies {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
             height: 50%;
             width: 90%;
             border: 3px solid $text-colour;
 
-
             li {
                 font-size: $normal-text-font-size;
-                margin: 2.5%;
+                margin: 5%;
+                list-style-type: none;
+                
 
             }
             @media (max-width: 600px) {
@@ -210,15 +213,10 @@ section.about {
             }
             }
         }
-            .about_hobbies_img_container {
-                width: 100%;
-                height: 100%;
-                opacity: 0.5;
-            }
+            i {
+                font-size:500%;
+                margin: 1%;
 
-            .about_hobbies_img {
-                width: auto;
-                height: 100%;
             }
         
     }
