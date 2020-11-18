@@ -73,7 +73,7 @@ section.projects .projects__container {
   flex-direction: row;
   justify-items: space-between;
   flex-shrink: 0;
-  height: 80%;
+  height: 85%;
   width: 65%;
   overflow-x: scroll;
   overflow: hidden;
