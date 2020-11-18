@@ -8,10 +8,10 @@ var scrollButtons = function scrollButtons() {
   var scrollRightButton = document.querySelector('#scroll__right__button');
   var scrollLeftButton = document.querySelector('#scroll__left__button');
   scrollRightButton.addEventListener('click', function (event) {
-    scrollableContainer.scrollLeft += 225;
+    scrollableContainer.scrollLeft += 220;
   });
   scrollLeftButton.addEventListener('click', function (event) {
-    scrollableContainer.scrollLeft -= 225;
+    scrollableContainer.scrollLeft -= 220;
   });
 };
 

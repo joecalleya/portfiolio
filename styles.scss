@@ -6,7 +6,7 @@ $hidden-text-size: 100%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
-$section__container_width: 70%;
+$section__container_width: 65%;
 $normal-text-font-size: 200%;
 
 html {
@@ -132,7 +132,6 @@ section.projects {
                 box-shadow: 6px 6px #666;
 
             }
-
             // create hover and shadow effects
             img.project__detail__image:hover {
                 opacity: 1;
@@ -149,11 +148,13 @@ section.projects {
             h1 {
                 white-space: normal;
                 width: 200px;
+                margin: 2%;
             }
 
-            .project__text {
+            p {
                 white-space: normal;
                 width: 200px;
+                font-size: 90%;
             }
         }
     }
