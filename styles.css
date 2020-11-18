@@ -99,7 +99,7 @@ section.projects .projects__container {
 }
 section.projects .projects__container .project__detail {
   padding: 5%;
-  width: 250px;
+  width: 200px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
   width: 100%;
@@ -118,11 +118,11 @@ section.projects .projects__container .project__detail img.project__detail__imag
 }
 section.projects .projects__container .project__detail h1 {
   white-space: normal;
-  width: 250px;
+  width: 200px;
 }
 section.projects .projects__container .project__detail .project__text {
   white-space: normal;
-  width: 250px;
+  width: 200px;
 }
 
 section.about {
