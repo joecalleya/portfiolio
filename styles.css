@@ -49,8 +49,8 @@ section.landing {
 }
 section.landing a {
   text-decoration: none;
-  color: #f09000;
-  opacity: 0.5;
+  color: rgba(240, 144, 0, 0.4);
+  opacity: 0.1;
 }
 
 section.projects {
@@ -253,12 +253,12 @@ div.hidden {
   margin-top: 20%;
 }
 
-div.dropdown:hover .hidden {
+div.dropdown:active .hidden {
   opacity: 1;
   font-size: 100%;
 }
 
-div.link:active {
+div.link:hover {
   background-color: rgba(240, 144, 0, 0.7);
   color: #09103b;
   border: solid #09103b 5px;

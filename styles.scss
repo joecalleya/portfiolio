@@ -5,6 +5,7 @@ $hidden-text-size: 100%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
+$background-3:rgba(240, 144, 0, 0.4);
 $section__container_width: 65%;
 $normal-text-font-size: 170%;
 
@@ -62,8 +63,8 @@ section.landing {
 
     a {
         text-decoration: none;
-        color: $text-colour;
-        opacity: 0.5;
+        color: $background-3;
+        opacity: 0.1;
 
     }
 }
@@ -298,9 +299,6 @@ div.tile {
 
 
 }
-
-
-
 //THESE STYLEs ARE FOR THE LANDING PAGE
 
 div.hidden {
@@ -313,12 +311,12 @@ div.hidden {
 
 }
 
-div.dropdown:hover .hidden {
+div.dropdown:active .hidden {
     opacity: 1;
     font-size: $hidden-text-size;
 }
 
-div.link:active {
+div.link:hover {
     background-color: rgba(240, 144, 0, 0.7);
     color: $background-colour;
     border: solid $background-colour 5px;
