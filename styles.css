@@ -165,7 +165,7 @@ section.about .about__container .about__container__hobbies {
 }
 section.about .about__container .about__container__hobbies li {
   font-size: 170%;
-  margin: 5%;
+  margin: 1%;
   list-style-type: none;
 }
 @media (max-width: 600px) {
