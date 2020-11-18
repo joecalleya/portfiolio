@@ -3,7 +3,7 @@ $text-colour:rgb(240, 144, 0);
 // $text-colour:;
 $tile-text-size: 200%;
 $hidden-text-size: 100%;
-$heading-text-size: 250%;
+$heading-text-size: 300%;
 $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
 $section__container_width: 70%;
@@ -63,6 +63,7 @@ section.landing {
     a {
         text-decoration: none;
         color: $text-colour;
+        opacity: 0.5;
 
     }
 }
@@ -84,8 +85,8 @@ section.projects {
     }
 
     button {
-        height: 80%;
-        width: 2%;
+        height: 5%;
+        width: 5%;
         background-color: $background-colour;
         color: $text-colour;
         text-align: center;
@@ -117,6 +118,8 @@ section.projects {
         overflow: hidden;
         white-space: nowrap;
         background-color: $background-2;
+        border: 3px solid $background-colour;
+
 
         .project__detail {
             padding: 5%;
@@ -293,11 +296,10 @@ section.contact {
             width: 90%;
             margin-bottom: 2%;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
             font-size: $heading-text-size;
-            border: 3px solid $background-colour;
         }
     }
 }

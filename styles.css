@@ -15,7 +15,7 @@ body {
   align-content: center;
   padding: 3%;
   z-index: -1;
-  font-size: 250%;
+  font-size: 300%;
 }
 .section__title i {
   box-shadow: 6px 6px #666;
@@ -49,6 +49,7 @@ section.landing {
 section.landing a {
   text-decoration: none;
   color: #f09000;
+  opacity: 0.5;
 }
 
 section.projects {
@@ -67,8 +68,8 @@ section.projects a {
   color: #09103b;
 }
 section.projects button {
-  height: 80%;
-  width: 2%;
+  height: 5%;
+  width: 5%;
   background-color: #09103b;
   color: #f09000;
   text-align: center;
@@ -96,6 +97,7 @@ section.projects .projects__container {
   overflow: hidden;
   white-space: nowrap;
   background-color: rgba(240, 240, 240, 0.1);
+  border: 3px solid #09103b;
 }
 section.projects .projects__container .project__detail {
   padding: 5%;
@@ -231,7 +233,7 @@ section.contact .contact__container .contact__container__fontawesome {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 250%;
+  font-size: 300%;
   border: 3px solid #09103b;
 }
 section.contact .contact__container .contact__container__getintouch {
@@ -239,11 +241,10 @@ section.contact .contact__container .contact__container__getintouch {
   width: 90%;
   margin-bottom: 2%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 250%;
-  border: 3px solid #09103b;
+  font-size: 300%;
 }
 
 div.tile {
