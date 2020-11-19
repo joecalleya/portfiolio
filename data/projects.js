@@ -3,7 +3,7 @@ export const projectItemsArray = [{
     description: "Client Project: A Web App featuring Local deals and discounts",
     techStack: "React",
     gitHubLink: "https://github.com/nology-tech/no1-south-east",
-    webLink: "https://www.no1southeast.co.uk/",
+    webLink: "https://no1southeast.web.app/",
     image: "images/no1southeast.png"
 }, {
     name: "HTML Cat Game",

@@ -20,6 +20,7 @@ body {
 .section__title i {
   box-shadow: 5px 5px #666;
   margin-bottom: 50%;
+  font-size: 60%;
 }
 .section__title i:active {
   box-shadow: 1px 1px #666;
@@ -132,51 +133,53 @@ section.about a {
 }
 section.about h1 {
   border-bottom: 3px solid #f09000;
-  font-size: 150%;
-  margin: 1%;
+  font-size: 200%;
+  margin: 2%;
 }
 section.about .about__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-content: space-evenly;
   width: 65%;
   margin-bottom: 1%;
 }
 section.about .about__container .about__container__bio {
-  height: 45%;
   width: 95%;
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
-  font-size: 160%;
+  font-size: 170%;
   margin: 3%;
+  text-align: center;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
 section.about .about__container .about__container__hobbies {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-  height: 50%;
-  width: 60%;
+  justify-content: center;
+  width: 65%;
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
-  font-size: 160%;
+  font-size: 170%;
   list-style-type: none;
+  margin: 5%;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__hobbies li {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
 section.about .about__container i {
   font-size: 200%;
+  margin: 0%;
 }
 
 section.contact {
@@ -197,7 +200,7 @@ section.contact a {
 }
 section.contact h1 {
   border-bottom: 3px solid #09103b;
-  font-size: 150%;
+  font-size: 200%;
 }
 section.contact .contact__container {
   display: flex;
