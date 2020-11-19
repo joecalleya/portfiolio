@@ -7,7 +7,7 @@ $sub-heading-text-size: 150%;
 $background-2:rgba(240, 240, 240, 0.1);
 $background-3:rgba(240, 144, 0, 0.6);
 $section__container_width: 65%;
-$normal-text-font-size: 170%;
+$normal-text-font-size: 160%;
 
 html {
     scroll-behavior: smooth;
@@ -57,6 +57,7 @@ section.grid-background {
 
 section.landing {
     display: inline-block;
+    min-height: 600px;
     width: 100%;
     height: 100%;
     background-color: $background-colour;
@@ -91,6 +92,8 @@ section.projects {
         justify-items: space-between;
         flex-shrink: 0;
         height: 85%;
+        //max height to aviod warping
+        max-height: 600px;
         width: $section__container_width;
         overflow-x: scroll;
         overflow: hidden;
@@ -102,6 +105,7 @@ section.projects {
         .project__detail {
             padding: 5%;
             width: 200px;
+
 
             img.project__detail__image {
                 width: 100%;
@@ -126,7 +130,7 @@ section.projects {
             h1 {
                 white-space: normal;
                 width: 200px;
-                margin: 2%;
+                margin: 1%;
             }
 
             p {
@@ -145,6 +149,7 @@ section.about {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    min-height: 600px;
     width: 100%;
     height: 100%;
     background-color: $background-colour;
@@ -160,7 +165,7 @@ section.about {
     h1 {
          border-bottom: 3px solid $text-colour;
         font-size: $sub-heading-text-size;
-        margin: 3%;
+        margin: 1%;
 
 
     }
@@ -171,17 +176,17 @@ section.about {
         align-items: center;
         justify-items: center;
         width: $section__container_width;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
 
         .about__container__bio {
-            height: 50%;
-            width: 90%;
+            height: 45%;
+            width: 95%;
             border: 3px solid $text-colour;
 
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
-                margin: 5%;
+                margin: 3%;
             }
             //media query for mobile 
             @media (max-width: 600px) {
@@ -197,12 +202,11 @@ section.about {
             align-items: center;
             justify-content: space-evenly;
             height: 50%;
-            width: 90%;
+            width: 60%;
             border: 3px solid $text-colour;
 
             li {
                 font-size: $normal-text-font-size;
-                margin: 1%;
                 list-style-type: none;
                 
 
@@ -214,8 +218,7 @@ section.about {
             }
         }
             i {
-                font-size:500%;
-                margin: 1%;
+                font-size:200%;
 
             }
         
@@ -228,6 +231,7 @@ section.contact {
     justify-content: center;
     align-content: center;
     width: 100%;
+    min-height: 600px;
     height: 100%;
     background-color: $text-colour;
     color: $background-colour;
