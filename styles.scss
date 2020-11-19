@@ -171,7 +171,7 @@ section.about {
         margin-bottom: 1%;
 
         .about__container__bio  {
-            width: 95%;
+            width: 75%;
             border: 3px solid $text-colour;
 
             .about__container__bio__text {
@@ -193,7 +193,7 @@ section.about {
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-            width: $section__container_width;
+            width: 75%;
             border: 3px solid $text-colour;
 
             li {

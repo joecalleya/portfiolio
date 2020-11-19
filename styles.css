@@ -145,7 +145,7 @@ section.about .about__container {
   margin-bottom: 1%;
 }
 section.about .about__container .about__container__bio {
-  width: 95%;
+  width: 75%;
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
@@ -164,7 +164,7 @@ section.about .about__container .about__container__hobbies {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
