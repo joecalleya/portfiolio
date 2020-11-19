@@ -15,11 +15,11 @@ body {
   align-content: center;
   padding: 3%;
   z-index: -1;
-  font-size: 300%;
+  font-size: 280%;
 }
 .section__title i {
   box-shadow: 5px 5px #666;
-  margin-bottom: 50%;
+  margin-bottom: 25%;
   font-size: 60%;
 }
 .section__title i:active {
@@ -111,7 +111,7 @@ section.projects .projects__container .project__detail h1 {
 section.projects .projects__container .project__detail p {
   white-space: normal;
   width: 200px;
-  font-size: 90%;
+  font-size: 100%;
   margin: 0.5%;
 }
 
@@ -149,13 +149,13 @@ section.about .about__container .about__container__bio {
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
-  font-size: 170%;
-  margin: 3%;
+  font-size: 160%;
+  margin: 2%;
   text-align: center;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
-    font-size: 100%;
+    font-size: 120%;
   }
 }
 section.about .about__container .about__container__hobbies {
@@ -168,13 +168,13 @@ section.about .about__container .about__container__hobbies {
   border: 3px solid #f09000;
 }
 section.about .about__container .about__container__hobbies li {
-  font-size: 170%;
+  font-size: 160%;
   list-style-type: none;
-  margin: 5%;
+  margin: 2%;
 }
 @media (max-width: 600px) {
   section.about .about__container .about__container__hobbies li {
-    font-size: 100%;
+    font-size: 120%;
   }
 }
 section.about .about__container i {
@@ -221,7 +221,7 @@ section.contact .contact__container .contact__container__fontawesome {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 300%;
+  font-size: 280%;
   border: 3px solid #09103b;
 }
 section.contact .contact__container .contact__container__getintouch {
@@ -232,7 +232,7 @@ section.contact .contact__container .contact__container__getintouch {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 300%;
+  font-size: 280%;
 }
 
 div.tile {

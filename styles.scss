@@ -2,12 +2,12 @@ $background-colour:#09103b;
 $text-colour:rgb(240, 144, 0);
 $tile-text-size: 200%;
 $hidden-text-size: 100%;
-$heading-text-size: 300%;
+$heading-text-size: 280%;
 $sub-heading-text-size: 200%;
 $background-2:rgba(240, 240, 240, 0.1);
 $background-3:rgba(240, 144, 0, 0.6);
 $section__container_width: 65%;
-$normal-text-font-size: 170%;
+$normal-text-font-size: 160%;
 
 html {
     scroll-behavior: smooth;
@@ -30,7 +30,7 @@ body {
 
     i {
         box-shadow: 5px 5px #666;
-        margin-bottom: 50%;
+        margin-bottom: 25%;
         font-size: 60%;
 
 
@@ -132,7 +132,7 @@ section.projects {
             p {
                 white-space: normal;
                 width: 200px;
-                font-size: 90%;
+                font-size: 100%;
                 margin: 0.5%;
             }
         }
@@ -176,13 +176,13 @@ section.about {
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
-                margin: 3%;
+                margin: 2%;
                 text-align: center;
             }
             //media query for mobile 
             @media (max-width: 600px) {
                 .about__container__bio__text {
-                    font-size:100%;
+                    font-size:120%;
             }
             }
         }
@@ -199,13 +199,13 @@ section.about {
             li {
                 font-size: $normal-text-font-size;
                 list-style-type: none;
-                margin: 5%;
+                margin: 2%;
                 
 
             }
             @media (max-width: 600px) {
                 li {
-                    font-size:100%;
+                    font-size:120%;
             }
             }
         }
