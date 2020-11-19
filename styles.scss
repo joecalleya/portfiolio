@@ -41,6 +41,7 @@ body {
         }
     }
 }
+
 section.grid-background {
     margin: 0;
     padding: 0;
@@ -111,6 +112,7 @@ section.projects {
                 opacity: 0.9;
                 box-shadow: 6px 6px #666;
             }
+
             // create hover and shadow effects
             img.project__detail__image:hover {
                 opacity: 1;
@@ -157,9 +159,11 @@ section.about {
     }
 
     h1 {
-         border-bottom: 3px solid $text-colour;
+        border-bottom: 3px solid $text-colour;
         font-size: $sub-heading-text-size;
         margin: 2%;
+        text-align: center;
+
     }
 
     .about__container {
@@ -170,7 +174,7 @@ section.about {
         width: $section__container_width;
         margin-bottom: 1%;
 
-        .about__container__bio  {
+        .about__container__bio {
             width: 75%;
             border: 3px solid $text-colour;
 
@@ -179,11 +183,12 @@ section.about {
                 margin: 2%;
                 text-align: center;
             }
+
             //media query for mobile 
             @media (max-width: 600px) {
                 .about__container__bio__text {
-                    font-size:120%;
-            }
+                    font-size: 120%;
+                }
             }
         }
 
@@ -200,22 +205,23 @@ section.about {
                 font-size: $normal-text-font-size;
                 list-style-type: none;
                 margin: 2%;
-                
-
             }
+
             @media (max-width: 600px) {
                 li {
-                    font-size:120%;
-            }
+                    font-size: 120%;
+                }
             }
         }
-            i {
-                font-size:200%;
-                margin: 0%;
 
-
+        i {
+            font-size: 200%;
+            margin: 0%;
+            &:hover {
+                transform: scale(1.2);
+                transition-duration: 0.2s;
             }
-        
+        }
     }
 }
 
@@ -252,7 +258,13 @@ section.contact {
         width: $section__container_width;
 
         i {
+            font-size: 120%;
             margin: 5%;
+
+            &:hover {
+                transform: scale(1.2);
+                transition-duration: 0.5s;
+            }
         }
 
 
@@ -295,6 +307,7 @@ div.tile {
 
 
 }
+
 //THESE STYLEs ARE FOR THE LANDING PAGE
 
 div.hidden {
