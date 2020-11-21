@@ -320,7 +320,7 @@ div.hidden {
 
 }
 
-div.dropdown:active .hidden {
+div.dropdown:hover .hidden {
     opacity: 1;
     font-size: $hidden-text-size;
 }
