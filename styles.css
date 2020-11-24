@@ -15,7 +15,7 @@ body {
   align-content: center;
   padding: 3%;
   z-index: -1;
-  font-size: 280%;
+  font-size: 300%;
 }
 .section__title i {
   box-shadow: 5px 5px #666;
@@ -242,7 +242,7 @@ section.contact .contact__container .contact__container__getintouch {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 280%;
+  font-size: 300%;
 }
 
 div.tile {

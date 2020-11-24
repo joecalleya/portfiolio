@@ -2,7 +2,7 @@ $background-colour:#09103b;
 $text-colour:rgb(240, 144, 0);
 $tile-text-size: 200%;
 $hidden-text-size: 100%;
-$heading-text-size: 280%;
+$heading-text-size: 300%;
 $sub-heading-text-size: 200%;
 $background-2:rgba(240, 240, 240, 0.1);
 $background-3:rgba(240, 144, 0, 0.6);
@@ -20,6 +20,7 @@ body {
 }
 
 .section__title {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
