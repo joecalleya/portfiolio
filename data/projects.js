@@ -51,8 +51,8 @@ export const projectItemsArray = [{
     image: "images/fireCalculator.png"
 },{
     name: "Morse Translator",
-    description: "Morse Code Translator, enter text to translate to Morse ",
-    techStack: "Javascript - CSS - HTML",
+    description: "Morse Code Translator, enter text or Morse to translate between them. Tested using Jest",
+    techStack: "Javascript - CSS - HTML - Jest",
     gitHubLink: "https://github.com/joecalleya/morse-translator",
     webLink: "https://joecalleya.github.io/morse-translator/",
     image: "images/morsecode.png"
