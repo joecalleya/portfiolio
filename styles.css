@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section__title {
@@ -14,7 +15,7 @@ body {
   justify-content: center;
   align-content: center;
   padding: 3%;
-  z-index: -1;
+  z-index: 1;
   font-size: 300%;
 }
 .section__title i {
@@ -29,13 +30,12 @@ body {
 }
 
 section.grid-background {
-  margin: 0;
-  padding: 0;
+  padding-bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: grid;
   grid-template-columns: repeat(11, minmax(30px, 60px));
-  grid-template-rows: repeat(10, minmax(30px, 60px));
+  grid-template-rows: repeat(6, minmax(30px, 60px));
   grid-gap: 0.5%;
   background-color: #09103b;
   justify-content: center;
@@ -52,7 +52,6 @@ section.landing {
 section.landing a {
   text-decoration: none;
   color: rgba(240, 144, 0, 0.6);
-  opacity: 0.1;
 }
 
 section.projects {
@@ -62,9 +61,8 @@ section.projects {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #f09000;
+  background-color: rgba(240, 144, 0, 0.8);
   color: #09103b;
-  opacity: 0.7;
 }
 section.projects a {
   text-decoration: none;
@@ -75,8 +73,8 @@ section.projects .projects__container {
   flex-direction: row;
   justify-items: space-between;
   flex-shrink: 0;
-  height: 85%;
-  max-height: 600px;
+  height: 80%;
+  min-height: 600px;
   width: 65%;
   overflow-x: scroll;
   overflow: hidden;
@@ -85,20 +83,20 @@ section.projects .projects__container {
   border: 3px solid #09103b;
 }
 section.projects .projects__container .project__detail {
-  padding: 5%;
-  width: 200px;
+  padding: 10%;
+  width: 250px;
+  min-width: 200px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
   width: 100%;
   height: 70%;
-  opacity: 0.9;
   box-shadow: 6px 6px #666;
 }
 section.projects .projects__container .project__detail img.project__detail__image:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 section.projects .projects__container .project__detail img.project__detail__image:active {
-  opacity: 1;
+  opacity: 0.8;
   box-shadow: 1px 1px #666;
   transform: translateY(3px);
   transform: translatex(3px);
@@ -106,13 +104,13 @@ section.projects .projects__container .project__detail img.project__detail__imag
 section.projects .projects__container .project__detail h1 {
   white-space: normal;
   width: 200px;
-  margin: 1%;
+  margin: 5%;
 }
 section.projects .projects__container .project__detail p {
   white-space: normal;
   width: 200px;
   font-size: 100%;
-  margin: 0.5%;
+  margin: 1%;
 }
 
 section.about {
@@ -124,16 +122,15 @@ section.about {
   width: 100%;
   height: 100%;
   background-color: #09103b;
-  color: #f09000;
-  opacity: 0.7;
+  color: rgba(240, 144, 0, 0.8);
 }
 section.about a {
   text-decoration: none;
-  color: #f09000;
+  color: rgba(240, 144, 0, 0.8);
 }
 section.about h1 {
-  border-bottom: 3px solid #f09000;
-  font-size: 200%;
+  border-bottom: 3px solid rgba(240, 144, 0, 0.8);
+  font-size: 220%;
   margin: 2%;
   text-align: center;
 }
@@ -147,16 +144,18 @@ section.about .about__container {
 }
 section.about .about__container .about__container__bio {
   width: 75%;
-  border: 3px solid #f09000;
+  border: 3px solid rgba(240, 144, 0, 0.8);
+  width: 80%;
+  height: 40%;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
   font-size: 160%;
-  margin: 2%;
+  margin: 4%;
   text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   section.about .about__container .about__container__bio .about__container__bio__text {
-    font-size: 120%;
+    font-size: 100%;
   }
 }
 section.about .about__container .about__container__hobbies {
@@ -165,15 +164,16 @@ section.about .about__container .about__container__hobbies {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 75%;
-  border: 3px solid #f09000;
+  width: 80%;
+  height: 20%;
+  border: 3px solid rgba(240, 144, 0, 0.8);
 }
 section.about .about__container .about__container__hobbies li {
   font-size: 160%;
   list-style-type: none;
   margin: 2%;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   section.about .about__container .about__container__hobbies li {
     font-size: 120%;
   }
@@ -195,9 +195,8 @@ section.contact {
   width: 100%;
   min-height: 600px;
   height: 100%;
-  background-color: #f09000;
+  background-color: rgba(240, 144, 0, 0.8);
   color: #09103b;
-  opacity: 0.7;
 }
 section.contact a {
   text-decoration: none;
@@ -205,7 +204,7 @@ section.contact a {
 }
 section.contact h1 {
   border-bottom: 3px solid #09103b;
-  font-size: 200%;
+  font-size: 220%;
 }
 section.contact .contact__container {
   display: flex;
@@ -225,13 +224,13 @@ section.contact .contact__container i:hover {
 }
 section.contact .contact__container .contact__container__fontawesome {
   height: 50%;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 200%;
+  font-size: 220%;
   border: 3px solid #09103b;
 }
 section.contact .contact__container .contact__container__getintouch {
@@ -246,10 +245,10 @@ section.contact .contact__container .contact__container__getintouch {
 }
 
 div.tile {
-  font-size: 200%;
-  font-family: "Source Sans Pro", sans-serif;
-  border: 0.2rem solid #f09000;
-  color: #f09000;
+  font-size: 230%;
+  font-family: "Montserrat", sans-serif;
+  border: 0.2rem solid rgba(240, 144, 0, 0.8);
+  color: rgba(240, 144, 0, 0.8);
   align-self: stretch;
   justify-self: stretch;
   text-align: center;
@@ -259,22 +258,27 @@ div.tile {
 }
 
 div.hidden {
+  width: 100%;
+  height: 100%;
   display: block;
-  opacity: 0;
-  font-size: 100%;
-  margin-right: 15%;
-  margin-top: 20%;
+  opacity: 0.1;
+  font-size: 110%;
+  margin-bottom: 20%;
 }
 
 div.dropdown:hover .hidden {
   opacity: 1;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 div.link:hover {
   background-color: rgba(240, 144, 0, 0.7);
   color: #09103b;
   border: solid #09103b 5px;
+}
+
+.link__letter {
+  margin-bottom: 30%;
 }
 
 .J {
