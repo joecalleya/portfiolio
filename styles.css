@@ -73,7 +73,7 @@ section.projects .projects__container {
   flex-direction: row;
   justify-items: space-between;
   flex-shrink: 0;
-  height: 80%;
+  height: 75%;
   min-height: 600px;
   width: 65%;
   overflow-x: scroll;
@@ -245,7 +245,7 @@ section.contact .contact__container .contact__container__getintouch {
 }
 
 div.tile {
-  font-size: 230%;
+  font-size: 210%;
   font-family: "Montserrat", sans-serif;
   border: 0.2rem solid rgba(240, 144, 0, 0.8);
   color: rgba(240, 144, 0, 0.8);
@@ -261,9 +261,10 @@ div.hidden {
   width: 100%;
   height: 100%;
   display: block;
-  opacity: 0.1;
+  opacity: 0.4;
   font-size: 110%;
   margin-bottom: 20%;
+  margin-left: -7%;
 }
 
 div.dropdown:hover .hidden {
@@ -278,7 +279,7 @@ div.link:hover {
 }
 
 .link__letter {
-  margin-bottom: 30%;
+  margin-bottom: 39%;
 }
 
 .J {

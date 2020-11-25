@@ -3,7 +3,7 @@
 $font: 'Montserrat', sans-serif;
 $background-colour:#09103b;
 $text-colour:rgba(240, 144, 0, 0.8);
-$tile-text-size: 230%;
+$tile-text-size: 210%;
 $hidden-text-size: 110%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 220%;
@@ -94,7 +94,7 @@ section.projects {
         flex-direction: row;
         justify-items: space-between;
         flex-shrink: 0;
-        height: 80%;
+        height: 75%;
         min-height: 600px;
         width: $section__container_width;
         overflow-x: scroll;
@@ -317,9 +317,11 @@ div.hidden {
     width: 100%;
     height: 100%;
     display: block;
-    opacity: 0.1;
+    opacity: 0.4;
     font-size: $hidden-text-size;
     margin-bottom: 20%;
+    margin-left: -7%;
+
 }
 
 div.dropdown:hover .hidden {
@@ -333,7 +335,7 @@ div.link:hover {
     border: solid $background-colour 5px;
 }
 .link__letter {
-    margin-bottom: 30%;
+    margin-bottom: 39%;
 
 }
 ;
