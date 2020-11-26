@@ -3,7 +3,7 @@
 $font: 'Montserrat', sans-serif;
 $background-colour:#09103b;
 $text-colour:rgba(240, 144, 0, 0.8);
-$tile-text-size: 210%;
+$tile-text-size: 220%;
 $hidden-text-size: 110%;
 $heading-text-size: 300%;
 $sub-heading-text-size: 220%;
@@ -64,6 +64,7 @@ section.landing {
     display: inline-block;
     min-height: 600px;
     width: 100%;
+    // max-width: 360px;
     height: 100%;
     background-color: $background-colour;
 
@@ -164,7 +165,6 @@ section.about {
         font-size: $sub-heading-text-size;
         margin: 2%;
         text-align: center;
-
     }
 
     .about__container {
@@ -297,7 +297,19 @@ section.contact {
     }
 }
 
+// media query for mobile 
+
+        @media (max-width: 800px) {
+            section.grid-background 
+                {
+                transform: scale(0.9);
+                font-size: 80%;
+                }
+            }
+
 div.tile {
+    flex-shrink: 0;
+    padding:0.5%;
     font-size: $tile-text-size;
     font-family: $font;
     border: 0.2rem solid $text-colour;
@@ -314,7 +326,7 @@ div.tile {
 //THESE STYLEs ARE FOR THE LANDING PAGE
 @keyframes hiddenText {
     0% {opacity: 0.9}
-    100% {opacity: 0.05}
+    100% {opacity: 0.1}
   }
 
 div.hidden {
@@ -325,7 +337,7 @@ div.hidden {
     margin-bottom: 20%;
     margin-left: -7%;
     animation-name: hiddenText;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-fill-mode: both;
     border: 0.2rem solid grey;
     color:grey;

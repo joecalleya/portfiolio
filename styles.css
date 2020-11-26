@@ -245,8 +245,16 @@ section.contact .contact__container .contact__container__getintouch {
   font-size: 300%;
 }
 
+@media (max-width: 800px) {
+  section.grid-background {
+    transform: scale(0.9);
+    font-size: 80%;
+  }
+}
 div.tile {
-  font-size: 210%;
+  flex-shrink: 0;
+  padding: 0.5%;
+  font-size: 220%;
   font-family: "Montserrat", sans-serif;
   border: 0.2rem solid rgba(240, 144, 0, 0.8);
   color: rgba(240, 144, 0, 0.8);
@@ -263,7 +271,7 @@ div.tile {
     opacity: 0.9;
   }
   100% {
-    opacity: 0.05;
+    opacity: 0.1;
   }
 }
 div.hidden {
@@ -274,7 +282,7 @@ div.hidden {
   margin-bottom: 20%;
   margin-left: -7%;
   animation-name: hiddenText;
-  animation-duration: 4s;
+  animation-duration: 10s;
   animation-fill-mode: both;
   border: 0.2rem solid grey;
   color: grey;
