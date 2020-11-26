@@ -33,23 +33,23 @@ body {
     font-size: $heading-text-size;
 
     i {
-        box-shadow: 5px 5px #666;
+        box-shadow: 2px 2px #666;
         margin-bottom: 25%;
         font-size: 60%;
 
 
         &:active {
             box-shadow: 1px 1px #666;
-            transform: translateY(3px);
-            transform: translatex(3px);
+            transform: translateY(1px);
+            transform: translatex(1px);
         }
     }
 }
 
 section.grid-background {
-    padding-top: 5%;
+    padding-top: 6%;
     width: 100%;
-    height: 92%;
+    height: 85%;
     display: grid;
     grid-template-columns: repeat(11, minmax(30px, 60px));
     grid-template-rows: repeat(6, minmax(30px, 60px));
@@ -312,9 +312,9 @@ div.tile {
 }
 
 //THESE STYLEs ARE FOR THE LANDING PAGE
-@keyframes example {
-    from {opacity: 0}
-    to {opacity: 0.9}
+@keyframes hiddenText {
+    0% {opacity: 0.9}
+    100% {opacity: 0.05}
   }
 
 div.hidden {
@@ -324,17 +324,21 @@ div.hidden {
     font-size: $hidden-text-size;
     margin-bottom: 20%;
     margin-left: -7%;
-    animation-name: example;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+    animation-name: hiddenText;
+    animation-duration: 4s;
+    animation-fill-mode: both;
     border: 0.2rem solid grey;
     color:grey;
 
+    &:hover {
+        background-color: rgba(240, 144, 0, 0.7);
+    }
 }
 
 div.dropdown:hover .hidden {
     font-size: $hidden-text-size;
+    animation-direction: reverse;
+
 }
 
 div.link:hover {
@@ -343,7 +347,7 @@ div.link:hover {
     color: $background-colour;
 }
 .link__letter {
-    margin-bottom: 45%;
+    margin-bottom: 42%;
 
 }
 ;
