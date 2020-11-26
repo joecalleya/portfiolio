@@ -84,13 +84,14 @@ section.projects .projects__container {
 }
 section.projects .projects__container .project__detail {
   padding: 10%;
+  height: 500px;
   width: 250px;
   min-width: 200px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
   width: 100%;
   height: 70%;
-  box-shadow: 6px 6px #666;
+  box-shadow: 5px 5px #666;
 }
 section.projects .projects__container .project__detail img.project__detail__image:hover {
   opacity: 0.8;
@@ -261,7 +262,7 @@ div.hidden {
   width: 100%;
   height: 100%;
   display: block;
-  opacity: 0.4;
+  opacity: 0.3;
   font-size: 110%;
   margin-bottom: 20%;
   margin-left: -7%;

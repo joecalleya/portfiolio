@@ -18,7 +18,7 @@ export const projectItemsArray = [{
     techStack: "React - Firebase - Javascript - HTML - CSS",
     gitHubLink: "https://github.com/joecalleya/cocktail-api-app",
     webLink: "https://cocktail-api-app.firebaseapp.com/",
-    image: "images/Cocktail-app.png"
+    image: "images/cocktail-app.png"
 },{
     name: "Book Finder App",
     description: "This app Searches the Google Books Api and allows a person to ",
