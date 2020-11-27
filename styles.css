@@ -70,7 +70,7 @@ section.landing div.tile {
 }
 @keyframes hiddenText {
   0% {
-    opacity: 0.9;
+    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -92,6 +92,8 @@ section.landing div.hidden:hover {
 section.landing div.dropdown:hover .hidden {
   font-size: 100%;
   animation-direction: reverse;
+  transition-timing-function: ease;
+  animation-duration: 25s;
 }
 section.landing div.link:hover {
   opacity: 1;
