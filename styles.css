@@ -16,7 +16,7 @@ body {
   align-content: center;
   padding: 3%;
   z-index: 1;
-  font-size: 300%;
+  font-size: 280%;
 }
 .section__title i {
   box-shadow: 2px 2px #666;
@@ -30,21 +30,21 @@ body {
 }
 
 section.grid-background {
-  padding-top: 6%;
-  width: 100%;
-  height: 85%;
+  padding-bottom: 10%;
+  width: 40%;
+  height: 40%;
   display: grid;
   grid-template-columns: repeat(11, minmax(30px, 60px));
   grid-template-rows: repeat(6, minmax(30px, 60px));
-  grid-gap: 0.5%;
   background-color: #09103b;
-  justify-content: center;
-  align-content: top;
 }
 
 section.landing {
-  display: inline-block;
-  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
   width: 100%;
   height: 100%;
   background-color: #09103b;
@@ -52,6 +52,57 @@ section.landing {
 section.landing a {
   text-decoration: none;
   color: rgba(240, 144, 0, 0.6);
+}
+section.landing div.tile {
+  flex-shrink: 0;
+  padding: 0.5%;
+  font-size: 200%;
+  font-family: "Montserrat", sans-serif;
+  border: 0.1rem solid rgba(240, 144, 0, 0.8);
+  color: rgba(240, 144, 0, 0.8);
+  align-self: stretch;
+  justify-self: stretch;
+  text-align: center;
+  border-radius: 5%;
+  width: 75%;
+  height: 75%;
+  box-shadow: 0.2rem 0.2rem rgba(240, 144, 0, 0.6);
+}
+@keyframes hiddenText {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+section.landing div.hidden {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 110%;
+  margin-bottom: 20%;
+  margin-left: -7%;
+  animation-name: hiddenText;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  border: 0.1rem solid grey;
+  color: grey;
+}
+section.landing div.hidden:hover {
+  background-color: rgba(240, 144, 0, 0.7);
+}
+section.landing div.dropdown:hover .hidden {
+  font-size: 110%;
+  animation-direction: reverse;
+}
+section.landing div.link:hover {
+  opacity: 1;
+  background-color: rgba(240, 144, 0, 0.7);
+  color: #09103b;
+}
+section.landing .link__letter {
+  margin-bottom: 45%;
 }
 
 section.projects {
@@ -148,6 +199,7 @@ section.about .about__container .about__container__bio {
   border: 3px solid rgba(240, 144, 0, 0.8);
   width: 80%;
   height: 40%;
+  background-color: rgba(240, 240, 240, 0.1);
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
   font-size: 160%;
@@ -168,6 +220,7 @@ section.about .about__container .about__container__hobbies {
   width: 80%;
   height: 20%;
   border: 3px solid rgba(240, 144, 0, 0.8);
+  background-color: rgba(240, 240, 240, 0.1);
 }
 section.about .about__container .about__container__hobbies li {
   font-size: 160%;
@@ -233,6 +286,7 @@ section.contact .contact__container .contact__container__fontawesome {
   align-items: center;
   font-size: 220%;
   border: 3px solid #09103b;
+  background-color: rgba(240, 240, 240, 0.1);
 }
 section.contact .contact__container .contact__container__getintouch {
   height: 40%;
@@ -242,7 +296,7 @@ section.contact .contact__container .contact__container__getintouch {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 300%;
+  font-size: 280%;
 }
 
 @media (max-width: 800px) {
@@ -251,61 +305,6 @@ section.contact .contact__container .contact__container__getintouch {
     font-size: 80%;
   }
 }
-div.tile {
-  flex-shrink: 0;
-  padding: 0.5%;
-  font-size: 220%;
-  font-family: "Montserrat", sans-serif;
-  border: 0.2rem solid rgba(240, 144, 0, 0.8);
-  color: rgba(240, 144, 0, 0.8);
-  align-self: stretch;
-  justify-self: stretch;
-  text-align: center;
-  border-radius: 5%;
-  width: 80%;
-  height: 80%;
-}
-
-@keyframes hiddenText {
-  0% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-div.hidden {
-  width: 100%;
-  height: 100%;
-  display: block;
-  font-size: 110%;
-  margin-bottom: 20%;
-  margin-left: -7%;
-  animation-name: hiddenText;
-  animation-duration: 10s;
-  animation-fill-mode: both;
-  border: 0.2rem solid grey;
-  color: grey;
-}
-div.hidden:hover {
-  background-color: rgba(240, 144, 0, 0.7);
-}
-
-div.dropdown:hover .hidden {
-  font-size: 110%;
-  animation-direction: reverse;
-}
-
-div.link:hover {
-  opacity: 1;
-  background-color: rgba(240, 144, 0, 0.7);
-  color: #09103b;
-}
-
-.link__letter {
-  margin-bottom: 42%;
-}
-
 .J {
   grid-column: 5;
   grid-row: 1;
