@@ -21,7 +21,7 @@ var projectItemsArray = [{
 }, {
   name: "Cocktail Recipe App",
   description: "Using the Cocktail Recipe API, has ability to Authenticate, Search, filter & Save drinks.",
-  techStack: "React - Firebase - Javascript - HTML - CSS",
+  techStack: "React - Firebase - Javascript - HTML - CSS - CYPRESS",
   gitHubLink: "https://github.com/joecalleya/cocktail-api-app",
   webLink: "https://cocktail-api-app.firebaseapp.com/",
   image: "images/cocktail-app.png"
@@ -40,12 +40,12 @@ var projectItemsArray = [{
   webLink: "https://random-recipie.firebaseapp.com/",
   image: "/images/random-recipie.png"
 }, {
-  name: "( WORK IN PROGRESS) Outdoor Climbing App ",
-  description: "This will be a NODE API back end & separate front end for showing, updating and deleting climbing locations",
-  techStack: "NODE.js - HTML GET/POST etc - React - Firebase - Javascript - HTML - CSS",
-  gitHubLink: "https://github.com/joecalleya/climbing-spot-node-api",
-  webLink: "",
-  image: "/images/under-construction.png"
+  name: "Morse Translator",
+  description: "Morse Code Translator, enter text or Morse to translate between them. Tested using Jest",
+  techStack: "Javascript - CSS - HTML - Jest",
+  gitHubLink: "https://github.com/joecalleya/morse-translator",
+  webLink: "https://joecalleya.github.io/morse-translator/",
+  image: "images/morsecode.png"
 }, {
   name: "FIRE Calculator",
   description: "Financial Independence Retire Early Calculator; how long until you can retire",
@@ -54,11 +54,11 @@ var projectItemsArray = [{
   webLink: "https://joecalleya.github.io/fire-calculator/",
   image: "images/fireCalculator.png"
 }, {
-  name: "Morse Translator",
-  description: "Morse Code Translator, enter text or Morse to translate between them. Tested using Jest",
-  techStack: "Javascript - CSS - HTML - Jest",
-  gitHubLink: "https://github.com/joecalleya/morse-translator",
-  webLink: "https://joecalleya.github.io/morse-translator/",
-  image: "images/morsecode.png"
+  name: "Climbing Location App ",
+  description: "This will be a back & front end for showing, updating and deleting climbing locations",
+  techStack: "NODE.js - HTML GET/POST - React - Firebase - JS - HTML - CSS",
+  gitHubLink: "https://github.com/joecalleya/climbing-spot-node-api",
+  webLink: "",
+  image: "/images/under-construction.png"
 }];
 exports.projectItemsArray = projectItemsArray;

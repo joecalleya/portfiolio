@@ -24,13 +24,16 @@ const createHTML = (webLink, name, description, image, gitHubLink, techStack) =>
     const projectElementSelection = document.querySelector('.projects__container');
     projectElementSelection.innerHTML +=
         `<div class="project__detail">
+        <h1>${name}</h1>
+
                                             <a href=${webLink}>
                                                 <img class="project__detail__image" src=${image} alt="${name}">
                                             </a>
-                                            <h1>${name}</h1>
+                                            <div class="project__detail__text__git">
                                             <p class="project__text">${description}</p>
                                             <a href=${gitHubLink} target="_blank" rel="noopener noreferrer">
                                             <i class="fab fa-github-square"></i></a>
+                                            </div>
                                             <p> ${techStack}</p>
                                         </div> `
 };

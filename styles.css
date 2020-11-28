@@ -16,7 +16,7 @@ body {
   align-content: center;
   padding: 3%;
   z-index: 1;
-  font-size: 280%;
+  font-size: 300%;
 }
 .section__title i {
   box-shadow: 2px 2px #666;
@@ -111,6 +111,7 @@ section.projects {
   align-items: center;
   width: 100%;
   height: 100%;
+  min-height: 700px;
   background-color: rgba(240, 144, 0, 0.8);
   color: #09103b;
 }
@@ -121,10 +122,10 @@ section.projects a {
 section.projects .projects__container {
   display: flex;
   flex-direction: row;
-  justify-items: space-between;
+  align-items: center;
   flex-shrink: 0;
   height: 75%;
-  max-height: 900px;
+  max-height: 680px;
   width: 65%;
   overflow-x: scroll;
   overflow: hidden;
@@ -133,12 +134,13 @@ section.projects .projects__container {
   border: 3px solid #09103b;
 }
 section.projects .projects__container .project__detail {
-  padding: 5% 10% 10% 10%;
+  padding: 1% 10% 2% 10%;
   height: 500px;
   width: 250px;
   min-width: 200px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
+  margin: 5%;
   width: 100%;
   height: 70%;
   box-shadow: 5px 5px #666;
@@ -156,12 +158,21 @@ section.projects .projects__container .project__detail h1 {
   white-space: normal;
   width: 200px;
   margin: 5%;
+  text-align: center;
+}
+section.projects .projects__container .project__detail .project__detail__text__git {
+  display: flex;
+  flex-direction: row;
+}
+section.projects .projects__container .project__detail i {
+  padding: 3%;
+  font-size: 200%;
 }
 section.projects .projects__container .project__detail p {
   white-space: normal;
   width: 200px;
-  font-size: 100%;
-  margin: 1%;
+  margin: 2%;
+  text-align: justify;
 }
 
 section.about {
@@ -182,8 +193,6 @@ section.about a {
 section.about h1 {
   border-bottom: 3px solid rgba(240, 144, 0, 0.8);
   font-size: 220%;
-  margin: 2%;
-  text-align: center;
 }
 section.about .about__container {
   display: flex;
@@ -289,13 +298,15 @@ section.contact .contact__container .contact__container__fontawesome {
 }
 section.contact .contact__container .contact__container__getintouch {
   height: 40%;
-  width: 90%;
+  width: 80%;
   margin-bottom: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 280%;
+  font-size: 220%;
+  border: 3px solid #09103b;
+  background-color: rgba(240, 240, 240, 0.1);
 }
 
 .J {

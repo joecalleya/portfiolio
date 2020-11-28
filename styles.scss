@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-$font: 'Montserrat',sans-serif;
+$font: 'Montserrat',
+sans-serif;
 $background-colour:#09103b;
 $text-colour:rgba(240, 144, 0, 0.8);
 $tile-text-size: 180%;
 $hidden-text-size: 100%;
-$heading-text-size: 280%;
+$heading-text-size: 300%;
 $sub-heading-text-size: 220%;
 $background-2:rgba(240, 240, 240, 0.1);
 $background-3:rgba(240, 144, 0, 0.6);
@@ -44,10 +45,9 @@ body {
         }
     }
 }
+
 section.grid-background {
     padding-bottom: 250px;
-    // width: 40%;
-    // height: 300px;
     min-width: 360px;
     display: grid;
     grid-gap: 10px;
@@ -93,6 +93,7 @@ section.landing {
         0% {
             opacity: 1
         }
+
         100% {
             opacity: 0.0
         }
@@ -116,7 +117,7 @@ section.landing {
     div.dropdown:hover .hidden {
         font-size: $hidden-text-size;
         animation-direction: reverse;
-        transition-timing-function:ease;
+        transition-timing-function: ease;
         animation-duration: 25s;
 
     }
@@ -140,6 +141,7 @@ section.projects {
     align-items: center;
     width: 100%;
     height: 100%;
+    min-height: 700px;
     background-color: $text-colour;
     color: $background-colour;
 
@@ -151,10 +153,10 @@ section.projects {
     .projects__container {
         display: flex;
         flex-direction: row;
-        justify-items: space-between;
+        align-items: center;
         flex-shrink: 0;
         height: 75%;
-        max-height: 900px;
+        max-height: 680px;
         width: $section__container_width;
         overflow-x: scroll;
         overflow: hidden;
@@ -163,13 +165,14 @@ section.projects {
         border: 3px solid $background-colour;
 
         .project__detail {
-            padding: 5% 10% 10% 10%;
+            padding: 1% 10% 2% 10%;
             height: 500px;
             width: 250px;
             min-width: 200px;
 
 
             img.project__detail__image {
+                margin: 5%;
                 width: 100%;
                 height: 70%;
                 box-shadow: 5px 5px #666;
@@ -191,17 +194,33 @@ section.projects {
                 white-space: normal;
                 width: 200px;
                 margin: 5%;
+                text-align: center;
+
+            }
+
+            .project__detail__text__git {
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            i {
+                padding: 3%;
+                font-size: 200%;
+
             }
 
             p {
                 white-space: normal;
                 width: 200px;
-                font-size: 100%;
-                margin: 1%;
+                margin: 2%;
+                text-align: justify;
+
             }
         }
     }
 }
+
 
 section.about {
     display: flex;
@@ -222,8 +241,6 @@ section.about {
     h1 {
         border-bottom: 3px solid $text-colour;
         font-size: $sub-heading-text-size;
-        margin: 2%;
-        text-align: center;
     }
 
     .about__container {
@@ -239,14 +256,14 @@ section.about {
             border: 3px solid $text-colour;
             width: 80%;
             height: 40%;
-            background-color:$background-2;
+            background-color: $background-2;
 
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
                 margin: 4%;
                 text-align: center;
-                
+
             }
 
             //media query for mobile 
@@ -266,7 +283,7 @@ section.about {
             width: 80%;
             height: 20%;
             border: 3px solid $text-colour;
-            background-color:$background-2;
+            background-color: $background-2;
 
 
             li {
@@ -304,7 +321,7 @@ section.contact {
     height: 100%;
     background-color: $text-colour;
     color: $background-colour;
-    
+
 
     a {
         text-decoration: none;
@@ -353,13 +370,16 @@ section.contact {
 
         .contact__container__getintouch {
             height: 40%;
-            width: 90%;
+            width: 80%;
             margin-bottom: 2%;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
-            font-size: $heading-text-size;
+            font-size: $sub-heading-text-size;
+            border: 3px solid $background-colour;
+            background-color: $background-2;
+
         }
     }
 }
