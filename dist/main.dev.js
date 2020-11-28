@@ -2,6 +2,12 @@
 
 var _projects = require("./data/projects.js");
 
+var _dragScrolling = _interopRequireDefault(require("./scripts/dragScrolling.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+(0, _dragScrolling["default"])();
+
 var scrollButtons = function scrollButtons() {
   //this  following items are for setting up events on the scroll buttons so we can click and scroll
   var scrollableContainer = document.querySelector('#scrollable');

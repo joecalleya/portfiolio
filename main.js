@@ -1,6 +1,8 @@
 
 import {projectItemsArray} from "./data/projects.js";
+import dragScrolling from "./scripts/dragScrolling.js";
 
+dragScrolling();
 
 const scrollButtons = () => {
     //this  following items are for setting up events on the scroll buttons so we can click and scroll
