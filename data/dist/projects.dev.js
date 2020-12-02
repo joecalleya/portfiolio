@@ -20,21 +20,21 @@ var projectItemsArray = [{
   image: "images/catgame.png"
 }, {
   name: "Cocktail Recipe App",
-  description: "Using the Cocktail Recipe API, has ability to Authenticate, Search, filter & Save drinks.",
+  description: "Uses the Cocktail Recipe API, Authentication with Firebase, Search, filter & Save drinks.",
   techStack: "React - Firebase - Javascript - HTML - CSS - CYPRESS",
   gitHubLink: "https://github.com/joecalleya/cocktail-api-app",
   webLink: "https://cocktail-api-app.firebaseapp.com/",
   image: "images/cocktail-app.png"
 }, {
   name: "Book Finder App",
-  description: "This app Searches the Google Books Api and allows a person to ",
+  description: "Searches the Google Books Api and allows a person to add to Favorites",
   techStack: "Angular - Firebase - HTML - CSS - JS",
   gitHubLink: "https://github.com/joecalleya/book-finder-app",
   webLink: "https://book-finder-app-b2cc3.firebaseapp.com/",
   image: "images/book-finder-app.png"
 }, {
   name: "Random Recipe App",
-  description: "This App links to the Meal DB API, has ability to Authenticate & Save drinks to the user account",
+  description: "Links to the MealDB API, has ability to Authenticate & Save Recipes to the user account",
   techStack: "React - Firebase - Javascript - HTML - CSS",
   gitHubLink: "https://github.com/joecalleya/recipie-finder-app",
   webLink: "https://random-recipie.firebaseapp.com/",
@@ -53,12 +53,5 @@ var projectItemsArray = [{
   gitHubLink: "https://github.com/joecalleya/fire-calculator",
   webLink: "https://joecalleya.github.io/fire-calculator/",
   image: "images/fireCalculator.png"
-}, {
-  name: "Climbing Location App ",
-  description: "This will be a back & front end for showing, updating and deleting climbing locations",
-  techStack: "NODE.js - HTML GET/POST - React - Firebase - JS - HTML - CSS",
-  gitHubLink: "https://github.com/joecalleya/climbing-spot-node-api",
-  webLink: "",
-  image: "/images/under-construction.png"
 }];
 exports.projectItemsArray = projectItemsArray;

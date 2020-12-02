@@ -163,6 +163,8 @@ section.projects {
         white-space: nowrap;
         background-color: $background-2;
         border: 3px solid $background-colour;
+        border-radius: 10px;
+
 
         .project__detail {
             padding: 1% 10% 2% 10%;
@@ -257,12 +259,15 @@ section.about {
             width: 80%;
             height: 40%;
             background-color: $background-2;
+            border-radius: 10px;
+
 
 
             .about__container__bio__text {
                 font-size: $normal-text-font-size;
                 margin: 4%;
                 text-align: center;
+                border-radius: 10px;
 
             }
 
@@ -284,17 +289,21 @@ section.about {
             height: 20%;
             border: 3px solid $text-colour;
             background-color: $background-2;
+                border-radius: 10px;
 
 
             li {
                 font-size: $normal-text-font-size;
                 list-style-type: none;
                 margin: 2%;
+
             }
 
             @media (max-width: 700px) {
                 li {
                     font-size: 120%;
+                    border-radius: 10px;
+
                 }
             }
         }
@@ -365,6 +374,7 @@ section.contact {
             font-size: $sub-heading-text-size;
             border: 3px solid $background-colour;
             background-color: $background-2;
+            border-radius: 10px;
 
         }
 
@@ -379,6 +389,7 @@ section.contact {
             font-size: $sub-heading-text-size;
             border: 3px solid $background-colour;
             background-color: $background-2;
+            border-radius: 10px;
 
         }
     }
