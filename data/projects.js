@@ -6,13 +6,6 @@ export const projectItemsArray = [{
     webLink: "https://no1southeast.web.app/",
     image: "images/no1southeast.png"
 }, {
-    name: "HTML Cat Game",
-    description: "Http Cats Meme - Pair Matching Game",
-    techStack: "HTML - CSS - Javascript",
-    gitHubLink: "https://github.com/joecalleya/html-cats-game",
-    webLink: "https://joecalleya.github.io/html-cats-game/",
-    image: "images/catgame.png"
-},  {
     name: "Cocktail Recipe App",
     description: "Uses the Cocktail Recipe API, Authentication with Firebase, Search, filter & Save drinks.",
     techStack: "React - Firebase - Javascript - HTML - CSS - CYPRESS",
@@ -48,7 +41,14 @@ export const projectItemsArray = [{
     techStack: "Javascript - HTML - CSS",
     gitHubLink: "https://github.com/joecalleya/fire-calculator",
     webLink: "https://joecalleya.github.io/fire-calculator/",
-    image: "images/fireCalculator.png"
+    image: "images/fire-calculator.png"
+},{
+    name: "HTML Cat Game",
+    description: "Http Cats Meme - Pair Matching Game",
+    techStack: "HTML - CSS - Javascript",
+    gitHubLink: "https://github.com/joecalleya/html-cats-game",
+    webLink: "https://joecalleya.github.io/html-cats-game/",
+    image: "images/catgame.png"
 }
 ];
 
