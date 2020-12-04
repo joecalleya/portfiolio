@@ -215,7 +215,6 @@ section.projects {
   align-items: center;
   width: 100%;
   height: 100%;
-  min-height: 640px;
   background-color: rgba(240, 144, 0, 0.8);
   color: #09103b;
 }
@@ -239,15 +238,16 @@ section.projects .projects__container {
   border-radius: 10px;
 }
 section.projects .projects__container .project__detail {
-  padding: 1% 10% 2% 10%;
+  margin: 50px;
+  width: 225px;
+  min-width: 190px;
   height: 500px;
-  width: 250px;
-  min-width: 200px;
 }
 section.projects .projects__container .project__detail img.project__detail__image {
-  margin: 5%;
+  margin: 4px;
   width: 100%;
-  height: 70%;
+  height: 300px;
+  border-radius: 10px;
   box-shadow: 5px 5px #666;
 }
 section.projects .projects__container .project__detail img.project__detail__image:hover {
@@ -262,21 +262,21 @@ section.projects .projects__container .project__detail img.project__detail__imag
 section.projects .projects__container .project__detail h1 {
   white-space: normal;
   width: 200px;
-  margin: 5%;
   text-align: center;
 }
 section.projects .projects__container .project__detail .project__detail__text__git {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  height: 50px;
 }
 section.projects .projects__container .project__detail i {
-  padding: 3%;
-  font-size: 200%;
+  font-size: 150%;
 }
 section.projects .projects__container .project__detail p {
   white-space: normal;
   width: 200px;
-  margin: 2%;
+  margin: 2px;
   text-align: justify;
 }
 
@@ -285,6 +285,7 @@ section.about {
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  min-width: 330px;
   min-height: 640px;
   width: 100%;
   height: 100%;
@@ -316,8 +317,8 @@ section.about .about__container .about__container__bio {
   border-radius: 10px;
 }
 section.about .about__container .about__container__bio .about__container__bio__text {
-  font-size: 160%;
-  margin: 4%;
+  font-size: 150%;
+  margin: 4px;
   text-align: center;
   border-radius: 10px;
 }
@@ -334,9 +335,9 @@ section.about .about__container .about__container__hobbies {
   border-radius: 10px;
 }
 section.about .about__container .about__container__hobbies li {
-  font-size: 160%;
+  font-size: 150%;
   list-style-type: none;
-  margin: 2%;
+  margin: 4px;
 }
 section.about .about__container i {
   font-size: 200%;
@@ -352,8 +353,9 @@ section.contact {
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  min-width: 330px;
+  min-height: 640px;
   width: 100%;
-  min-height: 600px;
   height: 100%;
   background-color: rgba(240, 144, 0, 0.8);
   color: #09103b;
@@ -375,15 +377,15 @@ section.contact .contact__container {
   width: 65%;
 }
 section.contact .contact__container i {
-  font-size: 120%;
-  margin: 5%;
+  font-size: 100%;
+  margin: 10px;
 }
 section.contact .contact__container i:hover {
   transform: scale(1.2);
   transition-duration: 0.5s;
 }
 section.contact .contact__container .contact__container__fontawesome {
-  height: 50%;
+  height: 40%;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -396,9 +398,8 @@ section.contact .contact__container .contact__container__fontawesome {
   border-radius: 10px;
 }
 section.contact .contact__container .contact__container__getintouch {
-  height: 40%;
+  height: 20%;
   width: 80%;
-  margin-bottom: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -409,15 +410,20 @@ section.contact .contact__container .contact__container__getintouch {
   border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 700px) {
   section.grid-background {
     transform: scale(0.6);
   }
 
-  .about .about__container .about__container__bio {
+  .projects .projects__container .project__detail {
+    margin: 15px !important;
+  }
+
+  .about .about__container {
     font-size: 65%;
   }
-  .about .about__container .about__container__hobbies {
+
+  .contact .contact__container {
     font-size: 65%;
   }
 }

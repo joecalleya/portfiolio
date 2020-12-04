@@ -6,7 +6,7 @@ export const projectItemsArray = [{
     webLink: "https://no1southeast.web.app/",
     image: "images/no1southeast.png"
 }, {
-    name: "Cocktail Recipe App",
+    name: "Cocktail Recipe's",
     description: "Uses the Cocktail Recipe API, Authentication with Firebase, Search, filter & Save drinks.",
     techStack: "React - Firebase - Javascript - HTML - CSS - CYPRESS",
     gitHubLink: "https://github.com/joecalleya/cocktail-api-app",
