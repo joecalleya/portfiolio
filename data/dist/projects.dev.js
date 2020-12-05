@@ -13,28 +13,28 @@ var projectItemsArray = [{
   image: "images/no1southeast.png"
 }, {
   name: "Cocktail Recipe's",
-  description: "Uses the Cocktail Recipe API, Authentication with Firebase, Search, filter & Save drinks.",
+  description: "Using the Cocktail Recipe API. Search, filter & Save drinks.",
   techStack: "React - Firebase - Javascript - HTML - CSS - CYPRESS",
   gitHubLink: "https://github.com/joecalleya/cocktail-api-app",
   webLink: "https://cocktail-api-app.firebaseapp.com/",
   image: "images/cocktail-app.png"
 }, {
   name: "Book Finder App",
-  description: "Searches the Google Books Api and allows a person to add to Favorites",
+  description: "Search Google Books Api and add to favorites list",
   techStack: "Angular - Firebase - HTML - CSS - JS",
   gitHubLink: "https://github.com/joecalleya/book-finder-app",
   webLink: "https://book-finder-app-b2cc3.firebaseapp.com/",
   image: "images/book-finder-app.png"
 }, {
   name: "Random Recipe App",
-  description: "Links to the MealDB API, has ability to Authenticate & Save Recipes to the user account",
+  description: "Uses MealDB API, Authenticate users & Save Recipes",
   techStack: "React - Firebase - Javascript - HTML - CSS",
   gitHubLink: "https://github.com/joecalleya/recipie-finder-app",
   webLink: "https://random-recipie.firebaseapp.com/",
   image: "/images/random-recipie.png"
 }, {
   name: "Morse Translator",
-  description: "Morse Code Translator, enter text or Morse to translate between them. Tested using Jest",
+  description: "Enter text or Morse to translate between them. Tested using Jest",
   techStack: "Javascript - CSS - HTML - Jest",
   gitHubLink: "https://github.com/joecalleya/morse-translator",
   webLink: "https://joecalleya.github.io/morse-translator/",
