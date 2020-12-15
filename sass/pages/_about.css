@@ -16,6 +16,7 @@ section.about a {
 }
 section.about h1 {
   font-size: 180%;
+  text-shadow: grey 1px 1px;
 }
 section.about .about__container {
   height: 75%;

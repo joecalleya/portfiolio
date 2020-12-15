@@ -267,6 +267,7 @@ section.about a {
 }
 section.about h1 {
   font-size: 180%;
+  text-shadow: grey 1px 1px;
 }
 section.about .about__container {
   height: 75%;
@@ -334,6 +335,7 @@ section.contact a {
 }
 section.contact h1 {
   font-size: 180%;
+  text-shadow: grey 1px 1px;
 }
 section.contact .contact__container {
   display: flex;
