@@ -15,7 +15,6 @@ section.about a {
   color: rgba(240, 144, 0, 0.8);
 }
 section.about h1 {
-  border-bottom: 3px solid rgba(240, 144, 0, 0.8);
   font-size: 180%;
 }
 section.about .about__container {

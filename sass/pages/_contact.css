@@ -27,8 +27,8 @@ section.contact .contact__container {
   width: 65%;
 }
 section.contact .contact__container i {
-  font-size: 100%;
-  margin: 10px;
+  font-size: 110%;
+  padding: 15px;
 }
 section.contact .contact__container i:hover {
   transform: scale(1.2);

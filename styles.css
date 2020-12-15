@@ -249,68 +249,6 @@ section.projects .projects__container .project__detail p {
   text-align: justify;
 }
 
-section.contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-width: 330px;
-  min-height: 640px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(240, 144, 0, 0.8);
-  color: #09103b;
-}
-section.contact a {
-  text-decoration: none;
-  color: #09103b;
-}
-section.contact h1 {
-  border-bottom: 3px solid #09103b;
-  font-size: 180%;
-}
-section.contact .contact__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: space-evenly;
-  height: 75%;
-  width: 65%;
-}
-section.contact .contact__container i {
-  font-size: 100%;
-  margin: 10px;
-}
-section.contact .contact__container i:hover {
-  transform: scale(1.2);
-  transition-duration: 0.5s;
-}
-section.contact .contact__container .contact__container__fontawesome {
-  height: 40%;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 180%;
-  border: 3px solid #09103b;
-  background-color: rgba(240, 240, 240, 0.1);
-  border-radius: 10px;
-}
-section.contact .contact__container .contact__container__getintouch {
-  height: 40%;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 180%;
-  border: 3px solid #09103b;
-  background-color: rgba(240, 240, 240, 0.1);
-  border-radius: 10px;
-}
-
 section.about {
   display: flex;
   flex-direction: row;
@@ -328,7 +266,6 @@ section.about a {
   color: rgba(240, 144, 0, 0.8);
 }
 section.about h1 {
-  border-bottom: 3px solid rgba(240, 144, 0, 0.8);
   font-size: 180%;
 }
 section.about .about__container {
@@ -379,6 +316,68 @@ section.about .about__container i:hover {
   transition-duration: 0.2s;
 }
 
+section.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 330px;
+  min-height: 640px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 144, 0, 0.8);
+  color: #09103b;
+}
+section.contact a {
+  text-decoration: none;
+  color: #09103b;
+}
+section.contact h1 {
+  border-bottom: 3px solid #09103b;
+  font-size: 180%;
+}
+section.contact .contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-evenly;
+  height: 75%;
+  width: 65%;
+}
+section.contact .contact__container i {
+  font-size: 110%;
+  padding: 15px;
+}
+section.contact .contact__container i:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+section.contact .contact__container .contact__container__fontawesome {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 180%;
+  border: 3px solid #09103b;
+  background-color: rgba(240, 240, 240, 0.1);
+  border-radius: 10px;
+}
+section.contact .contact__container .contact__container__getintouch {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 180%;
+  border: 3px solid #09103b;
+  background-color: rgba(240, 240, 240, 0.1);
+  border-radius: 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -424,7 +423,7 @@ body {
   }
 
   .section__title {
-    font-size: 150%;
+    font-size: 120%;
   }
 
   .projects .projects__container .project__detail {
