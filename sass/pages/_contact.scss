@@ -1,7 +1,5 @@
 @import '../abstracts/variables';
 
-
-
 section.contact {
     display: flex;
     flex-direction: row;
@@ -22,9 +20,7 @@ section.contact {
 
 
     h1 {
-        border-bottom: 3px solid $background-colour;
         font-size: $sub-heading-text-size;
-
     }
 
     .contact__container {

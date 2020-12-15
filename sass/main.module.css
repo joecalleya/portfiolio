@@ -266,7 +266,6 @@ section.about a {
   color: rgba(240, 144, 0, 0.8);
 }
 section.about h1 {
-  border-bottom: 3px solid rgba(240, 144, 0, 0.8);
   font-size: 180%;
 }
 section.about .about__container {
@@ -333,6 +332,9 @@ section.contact a {
   text-decoration: none;
   color: #09103b;
 }
+section.contact h1 {
+  font-size: 180%;
+}
 section.contact .contact__container {
   display: flex;
   flex-direction: column;
@@ -340,6 +342,14 @@ section.contact .contact__container {
   justify-items: space-evenly;
   height: 75%;
   width: 65%;
+}
+section.contact .contact__container i {
+  font-size: 110%;
+  padding: 15px;
+}
+section.contact .contact__container i:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 section.contact .contact__container .contact__container__fontawesome {
   height: 40%;
