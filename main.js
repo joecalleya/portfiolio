@@ -1,4 +1,3 @@
-
 import {projectItemsArray} from "./data/projects.js";
 import dragScrolling from "./scripts/dragScrolling.js";
 

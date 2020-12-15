@@ -2,7 +2,6 @@
 
 @import './sass/main.module.scss';
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -14,17 +13,22 @@ body {
 }
 
 .section__title {
+    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    padding: 3px;
+    align-items: center;
     z-index: 1;
     font-size: $heading-text-size;
 
+    div {
+        padding: 15px;
+    }
+
     i {
         box-shadow: 2px 2px #666;
-        margin-bottom: 25%;
+        padding: 5px;
+        margin: 5px;
         font-size: 60%;
 
 
@@ -35,342 +39,23 @@ body {
         }
     }
 }
-
-section.grid-background {
-    padding-bottom: 250px;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(11, minmax(40px));
-    grid-template-rows: repeat(6, minmax(40px));
-    background-color: $background-colour;
-}
-
-section.landing {
-    min-width: $min-width-pixels;
-    min-height: $min-height-pixels;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+//this is a dummy element so the alignment of each section
+.right__bar {
+    width: 10%;
     height: 100%;
-    background-color: $background-colour;
-
-
-    a {
-        text-decoration: none;
-        color: $background-3;
-    }
-
-    div.tile {
-        flex-shrink: 0;
-        margin: 1px;
-        font-size: $tile-text-size;
-        font-family: $font;
-        color: $text-colour;
-        align-self: stretch;
-        justify-self: stretch;
-        text-align: center;
-        border-radius: 3px;
-        width: 40px;
-        min-width: 20px;
-        min-height: 20px;
-        height: 40px;
-        box-shadow: 3px 3px $background-3;
-        border: 1px solid $text-colour;
-
-    }
-
-    @keyframes hiddenText {
-        0% {
-            opacity: 1
-        }
-
-        100% {
-            opacity: 0.0
-        }
-    }
-
-    div.hidden {
-        font-size: $hidden-text-size;
-        margin-bottom: 12px;
-        margin-left: -1px;
-        animation-name: hiddenText;
-        animation-duration: 15s;
-        animation-fill-mode: both;
-        border: 1px solid grey;
-        color: grey;
-
-        &:hover {
-            background-color: rgba(240, 144, 0, 0.7);
-        }
-    }
-
-    div.dropdown:hover .hidden {
-        font-size: $hidden-text-size;
-        animation-direction: reverse;
-        transition-timing-function: ease;
-        animation-duration: 25s;
-
-    }
-
-    div.link:hover {
-        opacity: 1;
-        background-color: rgba(240, 144, 0, 0.7);
-        color: $background-colour;
-    }
-
-    .link__letter {
-        margin-bottom: 17px;
-
-    }
-}
-
-section.projects {
-    min-width: $min-width-pixels;
-    min-height: $min-height-pixels;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: $text-colour;
-    color: $background-colour;
-
-    a {
-        text-decoration: none;
-        color: $background-colour;
-    }
-
-    .projects__container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-shrink: 0;
-        height: 75%;
-        max-height: 680px;
-        width: $section__container_width;
-        overflow-x: scroll;
-        overflow: hidden;
-        white-space: nowrap;
-        background-color: $background-2;
-        border: 3px solid $background-colour;
-        border-radius: 10px;
-
-
-        .project__detail {
-            margin: 50px;
-            width: 225px;
-            min-width: 190px;
-            height: 500px;
-
-            img.project__detail__image {
-                margin: 1px;
-                width: 100%;
-                height: 300px;
-                border-radius: 10px;
-
-                box-shadow: 5px 5px #666;
-            }
-
-            // create hover and shadow effects
-            img.project__detail__image:hover {
-                opacity: 0.8;
-            }
-
-            img.project__detail__image:active {
-                opacity: 0.8;
-                box-shadow: 1px 1px #666;
-                transform: translateY(3px);
-                transform: translatex(3px);
-            }
-
-            h1 {
-                white-space: normal;
-                width: 200px;
-                text-align: center;
-
-            }
-
-            .project__detail__text__git {
-                display: flex;
-                flex-direction: row;
-                align-items:center;
-                height: 60px;
-
-            }
-
-            i {
-                font-size: 150%;
-
-            }
-
-            p {
-                white-space: normal;
-                margin: 5px;
-                text-align: justify;
-
-            }
-        }
-    }
 }
 
 
-section.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    min-width: $min-width-pixels;
-    min-height: $min-height-pixels;
-    width: 100%;
-    height: 100%;
-    background-color: $background-colour;
-    color: $text-colour;
-
-    a {
-        text-decoration: none;
-        color: $text-colour;
-    }
-
-    h1 {
-        border-bottom: 3px solid $text-colour;
-        font-size: $sub-heading-text-size;
-    }
-
-    .about__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: $section__container_width;
-        margin-bottom: 1%;
-
-        .about__container__bio {
-            width: 75%;
-            border: 3px solid $text-colour;
-            width: 80%;
-            height: 40%;
-            background-color: $background-2;
-            border-radius: 10px;
-
-            .about__container__bio__text {
-                font-size: $normal-text-font-size;
-                margin: 4px;
-                text-align: center;
-                border-radius: 10px;
-            }
-        }
-
-        .about__container__hobbies {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            width: 80%;
-            height: 20%;
-            border: 3px solid $text-colour;
-            background-color: $background-2;
-                border-radius: 10px;
-
-
-            li {
-                font-size: $normal-text-font-size;
-                list-style-type: none;
-                margin: 4px;
-            }
-        }
-
-        i {
-            font-size: 200%;
-            margin: 0%;
-
-            &:hover {
-                transform: scale(1.2);
-                transition-duration: 0.2s;
-            }
-        }
-    }
-}
-
-section.contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    min-width: $min-width-pixels;
-    min-height: $min-height-pixels;
-    width: 100%;
-    height: 100%;
-    background-color: $text-colour;
-    color: $background-colour;
-
-
-    a {
-        text-decoration: none;
-        color: $background-colour;
-    }
-
-
-    h1 {
-        border-bottom: 3px solid $background-colour;
-        font-size: $sub-heading-text-size;
-
-    }
-
-    .contact__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: space-evenly;
-        height: 100%;
-        width: $section__container_width;
-
-        i {
-            font-size: 100%;
-            margin: 10px;
-
-            &:hover {
-                transform: scale(1.2);
-                transition-duration: 0.5s;
-            }
-        }
-
-
-        .contact__container__fontawesome {
-            height: 40%;
-            width: 80%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            font-size: $sub-heading-text-size;
-            border: 3px solid $background-colour;
-            background-color: $background-2;
-            border-radius: 10px;
-        }
-        .contact__container__getintouch {
-            height: 20%;
-            width: 80%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            font-size: $sub-heading-text-size;
-            border: 3px solid $background-colour;
-            background-color: $background-2;
-            border-radius: 10px;
-
-        }
-    }
-}
 //media query for mobile 
             @media (max-width: 600px), (max-height: 700px){
                 section.grid-background {
                     transform: scale(0.6);
+                }
+
+                .section__title {
+                    font-size: 150%;
+
+
                 }
 
                 .projects {

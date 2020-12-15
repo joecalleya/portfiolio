@@ -1,6 +1,99 @@
 
 //THESE STYLEs ARE FOR THE LANDING PAGE
 
+
+section.grid-background {
+    padding-bottom: 250px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(11, minmax(40px));
+    grid-template-rows: repeat(6, minmax(40px));
+    background-color: $background-colour;
+}
+
+section.landing {
+    min-width: $min-width-pixels;
+    min-height: $min-height-pixels;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: $background-colour;
+
+
+    a {
+        text-decoration: none;
+        color: $background-3;
+    }
+
+    div.tile {
+        flex-shrink: 0;
+        margin: 1px;
+        font-size: $tile-text-size;
+        font-family: $font;
+        color: $text-colour;
+        align-self: stretch;
+        justify-self: stretch;
+        text-align: center;
+        border-radius: 3px;
+        width: 40px;
+        min-width: 20px;
+        min-height: 20px;
+        height: 40px;
+        box-shadow: 3px 3px $background-3;
+        border: 1px solid $text-colour;
+
+    }
+
+    @keyframes hiddenText {
+        0% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: 0.0
+        }
+    }
+
+    div.hidden {
+        font-size: $hidden-text-size;
+        margin-bottom: 12px;
+        margin-left: -1px;
+        animation-name: hiddenText;
+        animation-duration: 15s;
+        animation-fill-mode: both;
+        border: 1px solid grey;
+        color: grey;
+
+        &:hover {
+            background-color: rgba(240, 144, 0, 0.7);
+        }
+    }
+
+    div.dropdown:hover .hidden {
+        font-size: $hidden-text-size;
+        animation-direction: reverse;
+        transition-timing-function: ease;
+        animation-duration: 25s;
+
+    }
+
+    div.link:hover {
+        opacity: 1;
+        background-color: rgba(240, 144, 0, 0.7);
+        color: $background-colour;
+    }
+
+    .link__letter {
+        margin-bottom: 17px;
+
+    }
+}
+
+
+
 .J {
     grid-column: 5;
     grid-row: 1;
