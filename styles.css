@@ -44,8 +44,11 @@ section.landing div.tile {
   0% {
     opacity: 1;
   }
-  100% {
+  50% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 section.landing div.hidden {
@@ -53,8 +56,9 @@ section.landing div.hidden {
   margin-bottom: 12px;
   margin-left: -1px;
   animation-name: hiddenText;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-fill-mode: both;
+  animation-iteration-count: infinite;
   border: 1px solid grey;
   color: grey;
 }
@@ -65,7 +69,7 @@ section.landing div.dropdown:hover .hidden {
   font-size: 100%;
   animation-direction: reverse;
   transition-timing-function: ease;
-  animation-duration: 25s;
+  animation-duration: 12s;
 }
 section.landing div.link:hover {
   opacity: 1;
