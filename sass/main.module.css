@@ -249,8 +249,7 @@ section.projects .projects__container .project__detail i {
 }
 section.projects .projects__container .project__detail p {
   white-space: normal;
-  margin: 5px;
-  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 section.about {

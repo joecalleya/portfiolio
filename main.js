@@ -27,8 +27,7 @@ const createHTML = (webLink, name, description, image, gitHubLink, techStack) =>
                                             `<div class="project__detail">
                                             <div class="project__detail__text__git">
                                             <h1>${name}</h1>
-                                            <a href=${gitHubLink} target="_blank" rel="noopener noreferrer">
-                                            <i class="fab fa-github-square"></i></a>
+                                            <i class="fab fa-github-square"></i>
                                             </div>
                                             <a href=${webLink}>
                                                 <img class="project__detail__image" src=${image} alt="${name}">

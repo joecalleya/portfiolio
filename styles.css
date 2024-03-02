@@ -249,8 +249,7 @@ section.projects .projects__container .project__detail i {
 }
 section.projects .projects__container .project__detail p {
   white-space: normal;
-  margin: 5px;
-  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 section.about {
@@ -427,19 +426,15 @@ body {
   section.grid-background {
     transform: scale(0.6);
   }
-
   .section__title {
     font-size: 120%;
   }
-
   .projects .projects__container .project__detail {
     margin: 15px !important;
   }
-
   .about .about__container {
     font-size: 65%;
   }
-
   .contact .contact__container {
     font-size: 65%;
   }
