@@ -1,25 +1,31 @@
 export const projectItemsArray = [
-
     {
+        name: "EV Comparison Site",
+        description: "An Ev Listing Tool for a large car producer",
+        techStack: "GitLab (CICD) - Laravel Livewire - HTML - CSS - CI/CD",
+        gitHubLink: "",
+        webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/ev-listing-tool/",
+        image: "images/ev-listing-tool.png"
+    },{
         name: "Cricket Competition Site",
         description: "Internation Drinks Comapony Compettion Site (closed)",
-        techStack: "GitLab (CICD) - Javasctip(Svelete Js) - HTML - CSS - PHP",
+        techStack: "GitLab (CICD) - Javasctip(Svelete Js) - HTML - tailwind - typescript - PHP",
         gitHubLink: "",
         webLink: "https://www.bundabergrum.com.au/our-story/our-partnerships/cricket-promotion-big-cash-catch.html",
         image: "images/bundies-big-catch.png"
     },{
         name: "Landing Pages",
-        description: "A Campaign of EV Landing Pages for a largecar producer",
+        description: "A Campaign of EV Landing Pages for a large car producer",
         techStack: "GitLab - BootStrap - HTML - CSS - Javascript - Salesforce",
         gitHubLink: "",
-        webLink: "https://training-questionnaire.web.app/",
+        webLink: "https://www2.vwfsfleet.co.uk/l/151741/2024-02-07/pqvrb9",
         image: "images/landing-page.png"
     },{
         name: "Emergency Medicine Question Bank Training (in Progress)",
         description: "Question and answer site for EMT Sudents. has paypal subscribe, account and current progress info",
         techStack: "GitLab - Tailwind - React - CSS - Firebase - Paypal",
         gitHubLink: "",
-        webLink: "https://www2.vwfsfleet.co.uk/l/151741/2024-02-07/pqvrb9",
+        webLink: "https://training-questionnaire.web.app/",
         image: "images/EMT-drills.png"
     },{
         name: "Naturally Naked Soaps",
