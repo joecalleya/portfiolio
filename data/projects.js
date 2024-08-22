@@ -2,7 +2,7 @@ export const projectItemsArray = [
     {
         name: "EV Range Calculator",
         description: "An Ev Range Tool for a large car producer",
-        techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - CSS - PHP",
+        techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - Bootstrap",
         gitHubLink: "",
         webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/range-mileage-tool/",
         image: "images/ev_range_calculator.png"
