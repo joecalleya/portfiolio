@@ -1,5 +1,12 @@
 export const projectItemsArray = [
     {
+        name: "EV Range Calculator",
+        description: "An Ev Range Tool for a large car producer",
+        techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - CSS - PHP",
+        gitHubLink: "",
+        webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/range-mileage-tool/",
+        image: "images/ev_range_calculator.png"
+    },{
         name: "EV Comparison Site",
         description: "An Ev Listing Tool for a large car producer",
         techStack: "GitLab (CICD) - Laravel Livewire - HTML - CSS - CI/CD",
@@ -8,8 +15,8 @@ export const projectItemsArray = [
         image: "images/ev-listing-tool.png"
     },{
         name: "Cricket Competition Site",
-        description: "Internation Drinks Comapony Compettion Site (closed)",
-        techStack: "GitLab (CICD) - Javasctip(Svelete Js) - HTML - tailwind - typescript - PHP",
+        description: "International Drinks Company Coc Site (closed)",
+        techStack: "GitLab (CICD) - Javascript(Svelte Kit) - HTML - tailwind - typescript - PHP",
         gitHubLink: "",
         webLink: "https://www.bundabergrum.com.au/our-story/our-partnerships/cricket-promotion-big-cash-catch.html",
         image: "images/bundies-big-catch.png"
@@ -29,7 +36,7 @@ export const projectItemsArray = [
         image: "images/EMT-drills.png"
     },{
         name: "Naturally Naked Soaps",
-        description: "E-commmerce Site for naturally made soap",
+        description: "E-Commerce Site for naturally made soap",
         techStack: "GitLab (CICD) - React - Paypal - Firebase - HTML - CSS - Javascript",
         gitHubLink: "https://gitlab.com/jcalleya/eCommerceSiteTemplate",
         webLink: "https://naturally-naked.co.uk/",
