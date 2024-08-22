@@ -29,7 +29,7 @@ export const projectItemsArray = [
         image: "images/landing-page.png"
     },{
         name: "Emergency Medicine Question Bank Training (in Progress)",
-        description: "Question and answer site for EMT Sudents. has paypal subscribe, account and current progress info",
+        description: "Question and answer site for EMT Students. has paypal subscribe, account and current progress info",
         techStack: "GitLab - Tailwind - React - CSS - Firebase - Paypal",
         gitHubLink: "",
         webLink: "https://training-questionnaire.web.app/",
