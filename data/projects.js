@@ -1,5 +1,12 @@
 export const projectItemsArray = [
     {
+        name: "Havas Helia Home Page",
+        description: "Havas Helia Agency Brand Proposition",
+        techStack: "GitLab (CICD) - Laravel - Taillwind",
+        gitHubLink: "",
+        webLink: "https://havashelia.co.uk/",
+        image: "images/havas-helia.png"
+    },{
         name: "EV Range Calculator",
         description: "An Ev Range Tool for a large car producer",
         techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - Bootstrap",
