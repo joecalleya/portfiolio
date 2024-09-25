@@ -1,29 +1,29 @@
 export const projectItemsArray = [
     {
         name: "Havas Helia Home Page",
-        description: "Havas Helia Agency Brand Proposition",
-        techStack: "GitLab (CICD) - Laravel - Taillwind",
+        description: "Havas Helia Agency Site, with custom CMS system",
+        techStack: "GitLab (CICD) - Laravel - Taillwind - MySQL",
         gitHubLink: "",
         webLink: "https://havashelia.co.uk/",
         image: "images/havas-helia.png"
     },{
         name: "EV Range Calculator",
         description: "An Ev Range Tool for a large car producer",
-        techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - Bootstrap",
+        techStack: "GitLab (CICD) - Javascript(Svelte Js) - HTML - Bootstrap - MySQL",
         gitHubLink: "",
         webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/range-mileage-tool/",
         image: "images/ev_range_calculator.png"
     },{
         name: "EV Comparison Site",
         description: "An Ev Listing Tool for a large car producer",
-        techStack: "GitLab (CICD) - Laravel Livewire - HTML - CSS - CI/CD",
+        techStack: "GitLab (CICD) - Laravel Livewire - HTML - CSS - CI/CD - MySQL",
         gitHubLink: "",
         webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/ev-listing-tool/",
         image: "images/ev-listing-tool.png"
     },{
         name: "Cricket Competition Site",
         description: "International Drinks Company Coc Site (closed)",
-        techStack: "GitLab (CICD) - Javascript(Svelte Kit) - HTML - tailwind - typescript - PHP",
+        techStack: "GitLab (CICD) - Javascript(Svelte Kit) - HTML - tailwind - typescript - PHP - MySQL",
         gitHubLink: "",
         webLink: "https://www.bundabergrum.com.au/our-story/our-partnerships/cricket-promotion-big-cash-catch.html",
         image: "images/bundies-big-catch.png"
