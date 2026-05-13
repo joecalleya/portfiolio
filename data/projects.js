@@ -1,8 +1,15 @@
 export const projectItemsArray = [
-    {
-        name: "Havas Helia Home Page",
+    {   
+        name: "Demo Audience Builder",
+        description: "Demo Audience Builder, build using VueJs, Tailwind and Laravel",
+        techStack: "GitHub (CICD) - Laravel - vue - tailwind - typescript - PHP - MySQL - Docker",
+        gitHubLink: "",
+        webLink: "https://demo-portal.heliaonline.co.uk/",
+        image: "images/demo_portal.png"
+    },{
+        name: "Havas Helia",
         description: "Havas Helia Agency Site, with custom CMS system",
-        techStack: "GitLab (CICD) - Laravel - Taillwind - MySQL",
+        techStack: "GitLab (CICD) - Laravel - Taillwind - MySQL - Docker",
         gitHubLink: "",
         webLink: "https://havashelia.co.uk/",
         image: "images/havas-helia.png"
@@ -20,13 +27,6 @@ export const projectItemsArray = [
         gitHubLink: "",
         webLink: "https://www.vwfsfleet.co.uk/support-and-advice/tools/ev-listing-tool/",
         image: "images/ev-listing-tool.png"
-    },{
-        name: "Cricket Competition Site",
-        description: "International Drinks Company Coc Site (closed)",
-        techStack: "GitLab (CICD) - Javascript(Svelte Kit) - HTML - tailwind - typescript - PHP - MySQL",
-        gitHubLink: "",
-        webLink: "https://www.bundabergrum.com.au/our-story/our-partnerships/cricket-promotion-big-cash-catch.html",
-        image: "images/bundies-big-catch.png"
     },{
         name: "Landing Pages",
         description: "A Campaign of EV Landing Pages for a large car producer",

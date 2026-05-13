@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1{
+  font-size: 1rem;
+}
+
 section.grid-background {
   padding-bottom: 250px;
   display: grid;
