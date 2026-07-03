@@ -1,5 +1,19 @@
 export const projectItemsArray = [
-    {   
+        {   
+        name: "Volkswagen Fleet Financial Services Homepage",
+        description: "Full website build for Volkswagen Financial Services, built using Wordpress.",
+        techStack: "GitHub (CICD) - Wordpress - PHP - MySQL - Docker",
+        gitHubLink: "",
+        webLink: "https://www.vwfsfleet.co.uk/",
+        image: "images/VWFS_home.png"
+    },{   
+        name: "English Heritage - Join & Checkout Journey",
+        description: "Full website build for English Heritage, built using RAW  HML , css anmd javascript.",
+        techStack: "GitHub (CICD) - HTML - CSS - Javascript ",
+        gitHubLink: "",
+        webLink: "https://www.english-heritage.org.uk/join/",
+        image: "images/EH_join_and_checkout.png"
+    },{ 
         name: "Demo Audience Builder",
         description: "Demo Audience Builder, build using VueJs, Tailwind and Laravel",
         techStack: "GitHub (CICD) - Laravel - vue - tailwind - typescript - PHP - MySQL - Docker",
